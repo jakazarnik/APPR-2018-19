@@ -1,5 +1,5 @@
 ---
-title: "Poročilo pri predmetu Analiza podatkov s programom R"
+title: "Poro??ilo pri predmetu Analiza podatkov s programom R"
 author: "Jakob Zarnik"
 output:
   html_document: default
@@ -11,11 +11,11 @@ runtime: shiny
 ---
 
 ```{r setup, echo=FALSE, results='hide', message=FALSE, warning=FALSE}
-# Če želimo nastaviti pisave v PDF-ju, odkomentiramo
+# ??e ??elimo nastaviti pisave v PDF-ju, odkomentiramo
 # in sledimo navodilom v programu.
 #source("fontconfig.r", encoding="UTF-8")
 
-# Uvoz vseh potrebnih knjižnic
+# Uvoz vseh potrebnih knji??nic
 source("lib/libraries.r", encoding="UTF-8")
 ```
 
@@ -24,46 +24,46 @@ source("lib/libraries.r", encoding="UTF-8")
 source("lib/rstudio.r", encoding="UTF-8")
 ```
 
-# Izbira teme
+# Umrljivost v Sloveniji
 
-Za vzorec bomo prikazali nekaj podatkov o slovenskih občinah.
+Za vzorec bomo prikazali nekaj podatkov o slovenskih ob??inah.
 
 ![](slike/grb.png)
 
 ***
 
-# Obdelava, uvoz in čiščenje podatkov
+# Obdelava, uvoz in ??i????enje podatkov
 
 ```{r uvoz, echo=FALSE, message=FALSE}
 source("uvoz/uvoz.r", encoding="UTF-8")
 ```
 
-Uvozili smo podatke o občinah v obliki CSV s statističnega urada ter v obliki HTML
+Uvozili smo podatke o ob??inah v obliki CSV s statisti??nega urada ter v obliki HTML
 z Wikipedije. Podatke imamo v dveh razpredelnicah v obliki *tidy data*.
 
-1. `druzine` - podatki o družinah za vsako občino
-  - `obcina` - spremenljivka: ime občine (neurejen faktor),
-  - `velikost.druzine` - spremenljivka: število otrok v družini (število: 1, 2, 3 ali 4, kjer zadnja vrednost pomeni 4 ali več),
-  - `stevilo.druzin` - meritev: število družin z ustreznim številom otrok v ustrezni občini (število).
+1. `druzine` - podatki o dru??inah za vsako ob??ino
+  - `obcina` - spremenljivka: ime ob??ine (neurejen faktor),
+  - `velikost.druzine` - spremenljivka: ??tevilo otrok v dru??ini (??tevilo: 1, 2, 3 ali 4, kjer zadnja vrednost pomeni 4 ali ve??),
+  - `stevilo.druzin` - meritev: ??tevilo dru??in z ustreznim ??tevilom otrok v ustrezni ob??ini (??tevilo).
 
-2. `obcine` - podatki o občinah
-  - `obcina` - spremenljivka: ime občine (neurejen faktor),
-  - `povrsina` - meritev: površina občine v km$^2$ (število),
-  - `prebivalci` - meritev: prebivalstvo občine (število),
-  - `gostota` - meritev: število prebivalcev na km$^2$ (število),
-  - `naselja` - meritev: število naselij v občini (število),
-  - `ustanovitev` - meritev: leto ustanovitve občine (število),
-  - `pokrajina` - meritev: pokrajina, ki ji občina pripada (neurejen faktor),
-  - `regija` - meritev: regija, ki ji občina pripada (neurejen faktor),
-  - `odcepitev` - meritev: podatki o občinah, od katerih se je občina odcepila (besedilo).
+2. `obcine` - podatki o ob??inah
+  - `obcina` - spremenljivka: ime ob??ine (neurejen faktor),
+  - `povrsina` - meritev: povr??ina ob??ine v km$^2$ (??tevilo),
+  - `prebivalci` - meritev: prebivalstvo ob??ine (??tevilo),
+  - `gostota` - meritev: ??tevilo prebivalcev na km$^2$ (??tevilo),
+  - `naselja` - meritev: ??tevilo naselij v ob??ini (??tevilo),
+  - `ustanovitev` - meritev: leto ustanovitve ob??ine (??tevilo),
+  - `pokrajina` - meritev: pokrajina, ki ji ob??ina pripada (neurejen faktor),
+  - `regija` - meritev: regija, ki ji ob??ina pripada (neurejen faktor),
+  - `odcepitev` - meritev: podatki o ob??inah, od katerih se je ob??ina odcepila (besedilo).
 
-**Opomba**: da bi razpredelnica `obcine` res bila v obliki *tidy data*, bi morali odstraniti stolpec `gostota` (saj je izpeljan iz stolpcev `povrsina` in `prebivalci`), podatke o pokrajinah pa bi morali premakniti v drugo razpredelnico, saj nekatere občine pripadajo dvema pokrajinama. Podobno bi morali narediti tudi s stolpcem `odcepitev`.
+**Opomba**: da bi razpredelnica `obcine` res bila v obliki *tidy data*, bi morali odstraniti stolpec `gostota` (saj je izpeljan iz stolpcev `povrsina` in `prebivalci`), podatke o pokrajinah pa bi morali premakniti v drugo razpredelnico, saj nekatere ob??ine pripadajo dvema pokrajinama. Podobno bi morali narediti tudi s stolpcem `odcepitev`.
 
-Spodnji graf prikazuje porazdelitev števila naselij v občinah.
+Spodnji graf prikazuje porazdelitev ??tevila naselij v ob??inah.
 
-```{r histogram, echo=FALSE, message=FALSE, fig.align='center', fig.cap='Histogram števila naselij v občinah'}
+```{r histogram, echo=FALSE, message=FALSE, fig.align='center', fig.cap='Histogram ??tevila naselij v ob??inah'}
 ggplot(obcine, aes(x=naselja)) + geom_histogram() +
-  ggtitle("Pogostost števila naselij") + xlab("Število naselij") + ylab("Število občin")
+  ggtitle("Pogostost ??tevila naselij") + xlab("??tevilo naselij") + ylab("??tevilo ob??in")
 ```
 
 ***
@@ -74,13 +74,13 @@ ggplot(obcine, aes(x=naselja)) + geom_histogram() +
 source("vizualizacija/vizualizacija.r", encoding="UTF-8")
 ```
 
-Spodnji zemljevid prikazuje povprečno velikost družine za vsako občino.
+Spodnji zemljevid prikazuje povpre??no velikost dru??ine za vsako ob??ino.
 
-```{r zemljevid, echo=FALSE, fig.align='center', fig.cap='Zemljevid povprečnega števila otrok v družini'}
+```{r zemljevid, echo=FALSE, fig.align='center', fig.cap='Zemljevid povpre??nega ??tevila otrok v dru??ini'}
 ggplot() + geom_polygon(data=left_join(zemljevid, povprecja, by=c("OB_UIME"="obcina")),
                         aes(x=long, y=lat, group=group, fill=povprecje)) +
-  ggtitle("Povprečno število otrok v družini") + xlab("") + ylab("") +
-  guides(fill=guide_colorbar(title="Povprečje"))
+  ggtitle("Povpre??no ??tevilo otrok v dru??ini") + xlab("") + ylab("") +
+  guides(fill=guide_colorbar(title="Povpre??je"))
 ```
 
 ***
@@ -91,14 +91,14 @@ ggplot() + geom_polygon(data=left_join(zemljevid, povprecja, by=c("OB_UIME"="obc
 source("analiza/analiza.r", encoding="UTF-8")
 ```
 
-Spodnji graf prikazuje povezavo med številom naselij in površino občine.
+Spodnji graf prikazuje povezavo med ??tevilom naselij in povr??ino ob??ine.
 
-```{r graf, echo=FALSE, fig.align='center', fig.cap='Povezava med številom naselij in površino občine'}
+```{r graf, echo=FALSE, fig.align='center', fig.cap='Povezava med ??tevilom naselij in povr??ino ob??ine'}
 ggplot(inner_join(obcine, data.frame(obcina=names(skupine),
                                      skupina=factor(skupine)), by="obcina")
 , aes(x=povrsina, y=naselja, color=skupina, size=prebivalci/1000)) + geom_point() +
-  ggtitle("Število naselij glede na površino občine") +
-  xlab(expression("Površina (km"^2 * ")")) + ylab("Št. naselij") +
+  ggtitle("??tevilo naselij glede na povr??ino ob??ine") +
+  xlab(expression("Povr??ina (km"^2 * ")")) + ylab("??t. naselij") +
   guides(color=guide_legend(title="Skupina"),
          size=guide_legend(title="Prebivalci (* 1000)"))
 ```
