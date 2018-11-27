@@ -19,6 +19,9 @@ Preučil bom demografski vpliv na naravni prirast in selitve glede na statistič
 *Tabela 3: regija, leto, naravni prirast, selitveni prirast s tujino, selitveni prirast med stat. regijami, skupni prirast, skupni prirast na 1000 prebivalcev
 *Tabela 4: regija, leto, starostna skupina
 
+### Viri:
+*https://pxweb.stat.si/pxweb/Database/Dem_soc/Dem_soc.asp
+
 ## Program
 
 Glavni program in poročilo se nahajata v datoteki `projekt.Rmd`.
