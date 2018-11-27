@@ -1,6 +1,6 @@
 # Analiza podatkov s programom R, 2018/19
 
-Jakob Zarnik
+##### Jakob Zarnik
 
 Repozitorij z gradivi pri predmetu APPR v študijskem letu 2018/19
 
@@ -12,15 +12,16 @@ Repozitorij z gradivi pri predmetu APPR v študijskem letu 2018/19
 V svojem projektu bom analiziral naravno gibanje prebivalstva v republiki Sloveniji. Zanimal me bo trend naravne rasti oziroma upadanja prebivalstva v primerjavi s skupnimi spremembami, ki vključujejo selitve, od leta 1920 naprej.
 Preučil bom demografski vpliv na naravni prirast in selitve glede na statistične regije Slovenije po letu 1995. Ker starostna sestava vpliva na spreminjanje števila prebivalsva bom prikazal značilnost regij glede na na starost ljudi v treh starostnih skupinah in skušal ponazoriti povazavo z selitvami, rodnostjo in umrljivostjo.
 
-### Tabele:
+#### Tabele:
 
-*Tabela 1: Slovenija, leto, prebivalstvo, živorojeni, umrli, naravni prirast
-*Tabela 2: regija, leto, umrljivost, rodnost, naravni prirast
-*Tabela 3: regija, leto, naravni prirast, selitveni prirast s tujino, selitveni prirast med stat. regijami, skupni prirast, skupni prirast na 1000 prebivalcev
-*Tabela 4: regija, leto, starostna skupina
+* tabela 1: Slovenija, leto, prebivalstvo, živorojeni, umrli, naravni prirast
+* tabela 2: regija, leto, umrljivost, rodnost, naravni prirast
+* tabela 3: regija, leto, naravni prirast, selitveni prirast s tujino, selitveni prirast med stat. regijami, skupni prirast, skupni prirast na 1000 prebivalcev
+* tabela 4: regija, leto, starostna skupina
 
-### Viri:
-*https://pxweb.stat.si/pxweb/Database/Dem_soc/Dem_soc.asp
+#### Viri:
+
+* tabela 1-4: https://pxweb.stat.si/pxweb/Database/Dem_soc/Dem_soc.asp
 
 ## Program
 
