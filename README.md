@@ -7,9 +7,17 @@ Repozitorij z gradivi pri predmetu APPR v študijskem letu 2018/19
 * [![Shiny](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/jaanos/APPR-2018-19/master?urlpath=shiny/APPR-2018-19/projekt.Rmd) Shiny
 * [![RStudio](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/jaanos/APPR-2018-19/master?urlpath=rstudio) RStudio
 
-## Analiza naravnega gibanja prebivalstva v Sloveniji
+## Analiza gibanja prebivalstva v Sloveniji
 
-V svojem projektu bom analiziral naravno gibanje prebivalstva v republiki Sloveniji. Zanimal me bo trend naravne rasti oziroma upadanja prebivalstva v primerjavi z skupnimi spremembami, ki vključujejo selitve. Preučil bom demografski vpliv na rodnost glede na občine v Sloveniji po letu 1995. Ker velikost in lega občin vpliva na rodnost se bom osredotočil na lastnosti občin z višjo rodnostjo.
+V svojem projektu bom analiziral naravno gibanje prebivalstva v republiki Sloveniji. Zanimal me bo trend naravne rasti oziroma upadanja prebivalstva v primerjavi s skupnimi spremembami, ki vključujejo selitve, od leta 1920 naprej.
+Preučil bom demografski vpliv na naravni prirast in selitve glede na statistične regije Slovenije po letu 1995. Ker starostna sestava vpliva na spreminjanje števila prebivalsva bom prikazal značilnost regij glede na na starost ljudi v treh starostnih skupinah in skušal ponazoriti povazavo z selitvami, rodnostjo in umrljivostjo.
+
+### Tabele:
+
+*Tabela 1: Slovenija, leto, prebivalstvo, živorojeni, umrli, naravni prirast
+*Tabela 2: regija, leto, umrljivost, rodnost, naravni prirast
+*Tabela 3: regija, leto, naravni prirast, selitveni prirast s tujino, selitveni prirast med stat. regijami, skupni prirast, skupni prirast na 1000 prebivalcev
+*Tabela 4: regija, leto, starostna skupina
 
 ## Program
 
