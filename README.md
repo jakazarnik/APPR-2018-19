@@ -1,16 +1,15 @@
 # Analiza podatkov s programom R, 2018/19
 
-#Jakob Zarnik
+Jakob Zarnik
 
 Repozitorij z gradivi pri predmetu APPR v študijskem letu 2018/19
 
 * [![Shiny](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/jaanos/APPR-2018-19/master?urlpath=shiny/APPR-2018-19/projekt.Rmd) Shiny
 * [![RStudio](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/jaanos/APPR-2018-19/master?urlpath=rstudio) RStudio
 
-## Tematika
+## Analiza naravnega gibanja prebivalstva v Sloveniji
 
-Izbrali si boste temo, s katero se bo vaš projekt ukvarjal.
-Tukaj boste napisali, kje ste dobili podatke, ter kakšen je vaš cilj.
+V svojem projektu bom analiziral naravno gibanje prebivalstva v republiki Sloveniji. Zanimal me bo trend naravne rasti oziroma upadanja prebivalstva v primerjavi z skupnimi spremembami, ki vključujejo selitve. Preučil bom demografski vpliv na rodnost glede na občine v Sloveniji po letu 1995. Ker velikost in lega občin vpliva na rodnost se bom osredotočil na lastnosti občin z višjo rodnostjo.
 
 ## Program
 
