@@ -12,14 +12,22 @@ Repozitorij z gradivi pri predmetu APPR v študijskem letu 2018/19
 V svojem projektu bom analiziral naravno gibanje prebivalstva v republiki Sloveniji. Zanimal me bo trend naravne rasti oziroma upadanja prebivalstva v primerjavi s skupnimi spremembami, ki vključujejo selitve, od leta 1920 naprej.
 Preučil bom demografski vpliv na naravni prirast in selitve glede na statistične regije Slovenije po letu 1995. Ker starostna sestava vpliva na spreminjanje števila prebivalsva bom prikazal značilnost regij glede na na starost ljudi v treh starostnih skupinah in skušal ponazoriti povazavo z selitvami, rodnostjo in umrljivostjo.
 
+<<<<<<< HEAD
 #### Tabele:
+=======
+##### Tabele:
+>>>>>>> fe8ea183d35ba9d2df512e0a590278cbbe61f79f
 
 * tabela 1: Slovenija, leto, prebivalstvo, živorojeni, umrli, naravni prirast
 * tabela 2: regija, leto, umrljivost, rodnost, naravni prirast
 * tabela 3: regija, leto, naravni prirast, selitveni prirast s tujino, selitveni prirast med stat. regijami, skupni prirast, skupni prirast na 1000 prebivalcev
 * tabela 4: regija, leto, starostna skupina
 
+<<<<<<< HEAD
 #### Viri:
+=======
+#####Viri:
+>>>>>>> fe8ea183d35ba9d2df512e0a590278cbbe61f79f
 
 * tabela 1-4: https://pxweb.stat.si/pxweb/Database/Dem_soc/Dem_soc.asp
 
