@@ -23,6 +23,7 @@ Preučil bom demografski vpliv na naravni prirast in selitve glede na statistič
 #### Viri:
 
 * tabela 1-4: https://pxweb.stat.si/pxweb/Database/Dem_soc/Dem_soc.asp
+* tabela 5: https://sl.wikipedia.org/wiki/Statistične_regije_Slovenije
 
 ## Program
 
