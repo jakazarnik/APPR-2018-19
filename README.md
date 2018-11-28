@@ -9,8 +9,13 @@ Repozitorij z gradivi pri predmetu APPR v študijskem letu 2018/19
 
 ## Analiza gibanja prebivalstva v Sloveniji
 
-V svojem projektu bom analiziral naravno gibanje prebivalstva v republiki Sloveniji. Zanimal me bo trend naravne rasti oziroma upadanja prebivalstva v primerjavi s skupnimi spremembami, ki vključujejo selitve, od leta 1920 naprej.
-Preučil bom demografski vpliv na naravni prirast in selitve glede na statistične regije Slovenije po letu 1995. Statistične regije bom primerjal glede na število prebivalstva ter gostoto poseljenosti in starost prebivalstva ter skušal podatke povezati z rojstvi, smrtmi in selitvami.
+V svojem projektu bom analiziral naravno gibanje prebivalstva v republiki Sloveniji in njenih statističnih regijah.
+Zanimal me bo trend naravna rast prebivalstva in skupne spremembe, ki vključujejo tudi selitve.
+V prvem delu se bom osredotočil na Slovenijo kot celoto in sicer od leta 1920. Skušal bom prikazati kako je zgodovina vplivala na spremembe. 
+V drugem delu bom preučil demografski vpliv na naravni prirast in selitve glede na statistične regije Slovenije po letu 1995. Statistične regije bom primerjal glede na število prebivalstva, gostoto poseljenosti in starostjo prebivalstva ter skušal podatke povezati s spremembami v številu rojstev, smrti in selitev.
+
+### Cilj:
+Želim nazorno ponazoriti kdaj se je v Sloveniji spremenil trend naravne rasti prebivalstva iz močno pozitivne na ničelno in negativno. Poskušal bom tudi prikazati kako se je spreminjalo prebivalstvo regij zaradi selitve predvesm mlajšega prebivalstva na območja večjih mest.
 
 #### Tabele:
 
@@ -22,8 +27,8 @@ Preučil bom demografski vpliv na naravni prirast in selitve glede na statistič
 
 #### Viri:
 
-* tabela 1-4: https://pxweb.stat.si/pxweb/Database/Dem_soc/Dem_soc.asp
-* tabela 5: https://sl.wikipedia.org/wiki/Statistične_regije_Slovenije
+* tabela 1-4: [SURS](https://pxweb.stat.si/pxweb/Database/Dem_soc/Dem_soc.asp)
+* tabela 5: [Wikipedija](https://sl.wikipedia.org/wiki/Statistične_regije_Slovenije)
 
 ## Program
 
