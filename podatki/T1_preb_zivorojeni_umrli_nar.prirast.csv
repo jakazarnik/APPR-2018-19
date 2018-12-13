@@ -1,6 +1,6 @@
-"Število prebivalcev in naravno gibanje prebivalstva po: LETO , MERITVE"
+"ï¿½tevilo prebivalcev in naravno gibanje prebivalstva po: LETO , MERITVE"
 
-" ";"Prebivalstvo - 1. januar";"Živorojeni";"Umrli";"Naravni prirast";"Naravni prirast na 1.000 prebivalcev"
+"leto";"Prebivalstvo - 1. januar";"ï¿½ivorojeni";"Umrli";"Naravni prirast";"Naravni prirast na 1.000 prebivalcev"
 "1922";1306529;39346;25088;14258;10.9
 "1923";1314182;40710;25003;15707;11.9
 "1924";1323284;40215;23297;16918;12.8
@@ -97,20 +97,3 @@
 "2015";2062874;20641;19834;807;0.4
 "2016";2064188;20345;19689;656;0.3
 "2017";2065895;20241;20509;-268;-0.1
-
-"Vir: Statistièni urad Republike Slovenije."
-
-"Povezane vsebine: "
-"- (seznam "
-"HREF=http://www.stat.si/StatWeb/Common/PrikaziDokument.ashx?IdDatotek-"
-"e=7808 target=_blank) Metodološka pojasnila "
-"- (seznam "
-"HREF=http://www.stat.si/StatWeb/Common/PrikaziDokument.ashx?IdDatotek-"
-"e=9513 target=_blank) Metodološka pojasnila "
-"- (seznam "
-"HREF=http://www.stat.si/StatWeb/Common/PrikaziDokument.ashx?IdDatotek-"
-"e=9520 target=_blank) Metodološka pojasnila "
-
-"Zaradi zaokroževanja stopnja naravnega prirasta ni vedno enaka "
-"razliki med koeficientoma živorojenih in umrlih na 1.000 prebivalcev."
-

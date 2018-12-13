@@ -15,7 +15,7 @@ V prvem delu se bom osredotočil na Slovenijo kot celoto in sicer od leta 1920. 
 V drugem delu bom preučil demografski vpliv na naravni prirast in selitve glede na statistične regije Slovenije po letu 1995. Statistične regije bom primerjal glede na število prebivalstva, gostoto poseljenosti in starostjo prebivalstva ter skušal podatke povezati s spremembami v številu rojstev, smrti in selitev.
 
 ### Cilj:
-Želim nazorno ponazoriti kdaj se je v Sloveniji spremenil trend naravne rasti prebivalstva iz močno pozitivne na ničelno in negativno. Poskušal bom tudi prikazati kako se je spreminjalo prebivalstvo regij zaradi selitve predvesm mlajšega prebivalstva na območja večjih mest.
+Želim nazorno ponazoriti kdaj se je v Sloveniji spremenil trend naravne rasti prebivalstva iz močno pozitivne na ničelno in negativno. Poskušal bom tudi prikazati kako se je spreminjalo prebivalstvo regij zaradi selitev, predvsem mlajšega prebivalstva, na območja večjih mest.
 
 #### Tabele:
 
