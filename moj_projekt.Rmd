@@ -1,5 +1,5 @@
 ---
-title: "Analiza"
+title: "Analiza gibanja prebivalstva po regijah v Sloveniji"
 author: "Jakob Zarnik"
 date: "3. januar 2019"
 output: html_document

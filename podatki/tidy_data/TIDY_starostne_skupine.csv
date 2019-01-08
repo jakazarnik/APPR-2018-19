@@ -1,0 +1,898 @@
+"","regija","leto","starostna skupina","stevilo"
+"1","SLOVENIJA",1995,"0-14 let",368578
+"2","SLOVENIJA",1995,"15-64 let",1380754
+"3","SLOVENIJA",1995,"65 + let",240145
+"4","SLOVENIJA",1996,"0-14 let",360472
+"5","SLOVENIJA",1996,"15-64 let",1380748
+"6","SLOVENIJA",1996,"65 + let",249046
+"7","SLOVENIJA",1997,"0-14 let",348392
+"8","SLOVENIJA",1997,"15-64 let",1383189
+"9","SLOVENIJA",1997,"65 + let",255408
+"10","SLOVENIJA",1998,"0-14 let",338068
+"11","SLOVENIJA",1998,"15-64 let",1384429
+"12","SLOVENIJA",1998,"65 + let",262426
+"13","SLOVENIJA",1999,"0-14 let",328629
+"14","SLOVENIJA",1999,"15-64 let",1381118
+"15","SLOVENIJA",1999,"65 + let",268587
+"16","SLOVENIJA",2000,"0-14 let",320374
+"17","SLOVENIJA",2000,"15-64 let",1391981
+"18","SLOVENIJA",2000,"65 + let",275400
+"19","SLOVENIJA",2001,"0-14 let",313406
+"20","SLOVENIJA",2001,"15-64 let",1395282
+"21","SLOVENIJA",2001,"65 + let",281406
+"22","SLOVENIJA",2002,"0-14 let",306721
+"23","SLOVENIJA",2002,"15-64 let",1398757
+"24","SLOVENIJA",2002,"65 + let",288548
+"25","SLOVENIJA",2003,"0-14 let",299119
+"26","SLOVENIJA",2003,"15-64 let",1401260
+"27","SLOVENIJA",2003,"65 + let",294654
+"28","SLOVENIJA",2004,"0-14 let",291510
+"29","SLOVENIJA",2004,"15-64 let",1404768
+"30","SLOVENIJA",2004,"65 + let",300155
+"31","SLOVENIJA",2005,"0-14 let",286678
+"32","SLOVENIJA",2005,"15-64 let",1404428
+"33","SLOVENIJA",2005,"65 + let",306484
+"34","SLOVENIJA",2006,"0-14 let",283221
+"35","SLOVENIJA",2006,"15-64 let",1407263
+"36","SLOVENIJA",2006,"65 + let",312874
+"37","SLOVENIJA",2007,"0-14 let",281079
+"38","SLOVENIJA",2007,"15-64 let",1409667
+"39","SLOVENIJA",2007,"65 + let",319631
+"40","SLOVENIJA",2008,"0-14 let",281081
+"41","SLOVENIJA",2008,"15-64 let",1417938
+"42","SLOVENIJA",2008,"65 + let",326847
+"43","SLOVENIJA",2009,"0-14 let",284054
+"44","SLOVENIJA",2009,"15-64 let",1414279
+"45","SLOVENIJA",2009,"65 + let",334029
+"46","SLOVENIJA",2010,"0-14 let",287275
+"47","SLOVENIJA",2010,"15-64 let",1421436
+"48","SLOVENIJA",2010,"65 + let",338265
+"49","SLOVENIJA",2011,"0-14 let",290853
+"50","SLOVENIJA",2011,"15-64 let",1420392
+"51","SLOVENIJA",2011,"65 + let",338944
+"52","SLOVENIJA",2012,"0-14 let",294149
+"53","SLOVENIJA",2012,"15-64 let",1416347
+"54","SLOVENIJA",2012,"65 + let",345000
+"55","SLOVENIJA",2013,"0-14 let",298095
+"56","SLOVENIJA",2013,"15-64 let",1408581
+"57","SLOVENIJA",2013,"65 + let",352145
+"58","SLOVENIJA",2014,"0-14 let",301053
+"59","SLOVENIJA",2014,"15-64 let",1399926
+"60","SLOVENIJA",2014,"65 + let",360106
+"61","SLOVENIJA",2015,"0-14 let",304310
+"62","SLOVENIJA",2015,"15-64 let",1389178
+"63","SLOVENIJA",2015,"65 + let",369386
+"64","SLOVENIJA",2016,"0-14 let",306390
+"65","SLOVENIJA",2016,"15-64 let",1377696
+"66","SLOVENIJA",2016,"65 + let",380102
+"67","SLOVENIJA",2017,"0-14 let",308594
+"68","SLOVENIJA",2017,"15-64 let",1366875
+"69","SLOVENIJA",2017,"65 + let",390426
+"70","Pomurska",1995,"0-14 let",23005
+"71","Pomurska",1995,"15-64 let",89073
+"72","Pomurska",1995,"65 + let",17789
+"73","Pomurska",1996,"0-14 let",22238
+"74","Pomurska",1996,"15-64 let",86575
+"75","Pomurska",1996,"65 + let",17859
+"76","Pomurska",1997,"0-14 let",21504
+"77","Pomurska",1997,"15-64 let",86753
+"78","Pomurska",1997,"65 + let",17967
+"79","Pomurska",1998,"0-14 let",20739
+"80","Pomurska",1998,"15-64 let",86769
+"81","Pomurska",1998,"65 + let",18214
+"82","Pomurska",1999,"0-14 let",20048
+"83","Pomurska",1999,"15-64 let",86846
+"84","Pomurska",1999,"65 + let",18363
+"85","Pomurska",2000,"0-14 let",19411
+"86","Pomurska",2000,"15-64 let",87076
+"87","Pomurska",2000,"65 + let",18482
+"88","Pomurska",2001,"0-14 let",18786
+"89","Pomurska",2001,"15-64 let",86974
+"90","Pomurska",2001,"65 + let",18569
+"91","Pomurska",2002,"0-14 let",18298
+"92","Pomurska",2002,"15-64 let",86920
+"93","Pomurska",2002,"65 + let",18730
+"94","Pomurska",2003,"0-14 let",17722
+"95","Pomurska",2003,"15-64 let",87028
+"96","Pomurska",2003,"65 + let",18800
+"97","Pomurska",2004,"0-14 let",17279
+"98","Pomurska",2004,"15-64 let",86999
+"99","Pomurska",2004,"65 + let",18795
+"100","Pomurska",2005,"0-14 let",16906
+"101","Pomurska",2005,"15-64 let",86899
+"102","Pomurska",2005,"65 + let",18912
+"103","Pomurska",2006,"0-14 let",16585
+"104","Pomurska",2006,"15-64 let",86801
+"105","Pomurska",2006,"65 + let",19067
+"106","Pomurska",2007,"0-14 let",16290
+"107","Pomurska",2007,"15-64 let",86432
+"108","Pomurska",2007,"65 + let",19346
+"109","Pomurska",2008,"0-14 let",15998
+"110","Pomurska",2008,"15-64 let",86151
+"111","Pomurska",2008,"65 + let",19675
+"112","Pomurska",2009,"0-14 let",15861
+"113","Pomurska",2009,"15-64 let",83347
+"114","Pomurska",2009,"65 + let",20329
+"115","Pomurska",2010,"0-14 let",15838
+"116","Pomurska",2010,"15-64 let",82985
+"117","Pomurska",2010,"65 + let",20725
+"118","Pomurska",2011,"0-14 let",15676
+"119","Pomurska",2011,"15-64 let",82622
+"120","Pomurska",2011,"65 + let",20847
+"121","Pomurska",2012,"0-14 let",15529
+"122","Pomurska",2012,"15-64 let",82361
+"123","Pomurska",2012,"65 + let",21098
+"124","Pomurska",2013,"0-14 let",15443
+"125","Pomurska",2013,"15-64 let",81117
+"126","Pomurska",2013,"65 + let",21462
+"127","Pomurska",2014,"0-14 let",15398
+"128","Pomurska",2014,"15-64 let",79845
+"129","Pomurska",2014,"65 + let",21890
+"130","Pomurska",2015,"0-14 let",15373
+"131","Pomurska",2015,"15-64 let",78834
+"132","Pomurska",2015,"65 + let",22463
+"133","Pomurska",2016,"0-14 let",15294
+"134","Pomurska",2016,"15-64 let",77664
+"135","Pomurska",2016,"65 + let",23120
+"136","Pomurska",2017,"0-14 let",15249
+"137","Pomurska",2017,"15-64 let",76376
+"138","Pomurska",2017,"65 + let",23852
+"139","Podravska",1995,"0-14 let",56309
+"140","Podravska",1995,"15-64 let",229709
+"141","Podravska",1995,"65 + let",39118
+"142","Podravska",1996,"0-14 let",54871
+"143","Podravska",1996,"15-64 let",226025
+"144","Podravska",1996,"65 + let",40182
+"145","Podravska",1997,"0-14 let",53210
+"146","Podravska",1997,"15-64 let",225843
+"147","Podravska",1997,"65 + let",41308
+"148","Podravska",1998,"0-14 let",51432
+"149","Podravska",1998,"15-64 let",226061
+"150","Podravska",1998,"65 + let",42348
+"151","Podravska",1999,"0-14 let",49995
+"152","Podravska",1999,"15-64 let",225748
+"153","Podravska",1999,"65 + let",43529
+"154","Podravska",2000,"0-14 let",48487
+"155","Podravska",2000,"15-64 let",226456
+"156","Podravska",2000,"65 + let",44662
+"157","Podravska",2001,"0-14 let",47224
+"158","Podravska",2001,"15-64 let",226880
+"159","Podravska",2001,"65 + let",45613
+"160","Podravska",2002,"0-14 let",46102
+"161","Podravska",2002,"15-64 let",227071
+"162","Podravska",2002,"65 + let",46905
+"163","Podravska",2003,"0-14 let",44953
+"164","Podravska",2003,"15-64 let",226868
+"165","Podravska",2003,"65 + let",47983
+"166","Podravska",2004,"0-14 let",43841
+"167","Podravska",2004,"15-64 let",226857
+"168","Podravska",2004,"65 + let",48728
+"169","Podravska",2005,"0-14 let",43040
+"170","Podravska",2005,"15-64 let",226477
+"171","Podravska",2005,"65 + let",49597
+"172","Podravska",2006,"0-14 let",42464
+"173","Podravska",2006,"15-64 let",226261
+"174","Podravska",2006,"65 + let",50510
+"175","Podravska",2007,"0-14 let",41993
+"176","Podravska",2007,"15-64 let",226240
+"177","Podravska",2007,"65 + let",51473
+"178","Podravska",2008,"0-14 let",41591
+"179","Podravska",2008,"15-64 let",227058
+"180","Podravska",2008,"65 + let",53132
+"181","Podravska",2009,"0-14 let",41809
+"182","Podravska",2009,"15-64 let",226281
+"183","Podravska",2009,"65 + let",54810
+"184","Podravska",2010,"0-14 let",41936
+"185","Podravska",2010,"15-64 let",225546
+"186","Podravska",2010,"65 + let",55861
+"187","Podravska",2011,"0-14 let",42117
+"188","Podravska",2011,"15-64 let",224845
+"189","Podravska",2011,"65 + let",56157
+"190","Podravska",2012,"0-14 let",42205
+"191","Podravska",2012,"15-64 let",224489
+"192","Podravska",2012,"65 + let",56840
+"193","Podravska",2013,"0-14 let",42596
+"194","Podravska",2013,"15-64 let",222863
+"195","Podravska",2013,"65 + let",57779
+"196","Podravska",2014,"0-14 let",42870
+"197","Podravska",2014,"15-64 let",221525
+"198","Podravska",2014,"65 + let",58933
+"199","Podravska",2015,"0-14 let",43387
+"200","Podravska",2015,"15-64 let",219664
+"201","Podravska",2015,"65 + let",60305
+"202","Podravska",2016,"0-14 let",43630
+"203","Podravska",2016,"15-64 let",217125
+"204","Podravska",2016,"65 + let",61798
+"205","Podravska",2017,"0-14 let",43961
+"206","Podravska",2017,"15-64 let",214777
+"207","Podravska",2017,"65 + let",63305
+"208","Koro<U+009A>ka",1995,"0-14 let",14539
+"209","Koro<U+009A>ka",1995,"15-64 let",52165
+"210","Koro<U+009A>ka",1995,"65 + let",7653
+"211","Koro<U+009A>ka",1996,"0-14 let",14132
+"212","Koro<U+009A>ka",1996,"15-64 let",52086
+"213","Koro<U+009A>ka",1996,"65 + let",7948
+"214","Koro<U+009A>ka",1997,"0-14 let",13633
+"215","Koro<U+009A>ka",1997,"15-64 let",52113
+"216","Koro<U+009A>ka",1997,"65 + let",8219
+"217","Koro<U+009A>ka",1998,"0-14 let",13285
+"218","Koro<U+009A>ka",1998,"15-64 let",52142
+"219","Koro<U+009A>ka",1998,"65 + let",8520
+"220","Koro<U+009A>ka",1999,"0-14 let",12941
+"221","Koro<U+009A>ka",1999,"15-64 let",52218
+"222","Koro<U+009A>ka",1999,"65 + let",8788
+"223","Koro<U+009A>ka",2000,"0-14 let",12597
+"224","Koro<U+009A>ka",2000,"15-64 let",52365
+"225","Koro<U+009A>ka",2000,"65 + let",9085
+"226","Koro<U+009A>ka",2001,"0-14 let",12247
+"227","Koro<U+009A>ka",2001,"15-64 let",52480
+"228","Koro<U+009A>ka",2001,"65 + let",9348
+"229","Koro<U+009A>ka",2002,"0-14 let",11878
+"230","Koro<U+009A>ka",2002,"15-64 let",52561
+"231","Koro<U+009A>ka",2002,"65 + let",9588
+"232","Koro<U+009A>ka",2003,"0-14 let",11486
+"233","Koro<U+009A>ka",2003,"15-64 let",52640
+"234","Koro<U+009A>ka",2003,"65 + let",9775
+"235","Koro<U+009A>ka",2004,"0-14 let",11104
+"236","Koro<U+009A>ka",2004,"15-64 let",52728
+"237","Koro<U+009A>ka",2004,"65 + let",10028
+"238","Koro<U+009A>ka",2005,"0-14 let",10884
+"239","Koro<U+009A>ka",2005,"15-64 let",52692
+"240","Koro<U+009A>ka",2005,"65 + let",10263
+"241","Koro<U+009A>ka",2006,"0-14 let",10609
+"242","Koro<U+009A>ka",2006,"15-64 let",52635
+"243","Koro<U+009A>ka",2006,"65 + let",10510
+"244","Koro<U+009A>ka",2007,"0-14 let",10432
+"245","Koro<U+009A>ka",2007,"15-64 let",52412
+"246","Koro<U+009A>ka",2007,"65 + let",10775
+"247","Koro<U+009A>ka",2008,"0-14 let",10329
+"248","Koro<U+009A>ka",2008,"15-64 let",52353
+"249","Koro<U+009A>ka",2008,"65 + let",11032
+"250","Koro<U+009A>ka",2009,"0-14 let",10304
+"251","Koro<U+009A>ka",2009,"15-64 let",50747
+"252","Koro<U+009A>ka",2009,"65 + let",11430
+"253","Koro<U+009A>ka",2010,"0-14 let",10358
+"254","Koro<U+009A>ka",2010,"15-64 let",50749
+"255","Koro<U+009A>ka",2010,"65 + let",11705
+"256","Koro<U+009A>ka",2011,"0-14 let",10299
+"257","Koro<U+009A>ka",2011,"15-64 let",50399
+"258","Koro<U+009A>ka",2011,"65 + let",11796
+"259","Koro<U+009A>ka",2012,"0-14 let",10302
+"260","Koro<U+009A>ka",2012,"15-64 let",50112
+"261","Koro<U+009A>ka",2012,"65 + let",11950
+"262","Koro<U+009A>ka",2013,"0-14 let",10297
+"263","Koro<U+009A>ka",2013,"15-64 let",49608
+"264","Koro<U+009A>ka",2013,"65 + let",12195
+"265","Koro<U+009A>ka",2014,"0-14 let",10186
+"266","Koro<U+009A>ka",2014,"15-64 let",48912
+"267","Koro<U+009A>ka",2014,"65 + let",12448
+"268","Koro<U+009A>ka",2015,"0-14 let",10169
+"269","Koro<U+009A>ka",2015,"15-64 let",48392
+"270","Koro<U+009A>ka",2015,"65 + let",12742
+"271","Koro<U+009A>ka",2016,"0-14 let",10096
+"272","Koro<U+009A>ka",2016,"15-64 let",47868
+"273","Koro<U+009A>ka",2016,"65 + let",13076
+"274","Koro<U+009A>ka",2017,"0-14 let",10136
+"275","Koro<U+009A>ka",2017,"15-64 let",47202
+"276","Koro<U+009A>ka",2017,"65 + let",13423
+"277","Savinjska",1995,"0-14 let",49512
+"278","Savinjska",1995,"15-64 let",179066
+"279","Savinjska",1995,"65 + let",29010
+"280","Savinjska",1996,"0-14 let",48262
+"281","Savinjska",1996,"15-64 let",178271
+"282","Savinjska",1996,"65 + let",30041
+"283","Savinjska",1997,"0-14 let",46569
+"284","Savinjska",1997,"15-64 let",178983
+"285","Savinjska",1997,"65 + let",30904
+"286","Savinjska",1998,"0-14 let",45155
+"287","Savinjska",1998,"15-64 let",179341
+"288","Savinjska",1998,"65 + let",31662
+"289","Savinjska",1999,"0-14 let",43929
+"290","Savinjska",1999,"15-64 let",178727
+"291","Savinjska",1999,"65 + let",32315
+"292","Savinjska",2000,"0-14 let",42769
+"293","Savinjska",2000,"15-64 let",180446
+"294","Savinjska",2000,"65 + let",33116
+"295","Savinjska",2001,"0-14 let",41684
+"296","Savinjska",2001,"15-64 let",180903
+"297","Savinjska",2001,"65 + let",33820
+"298","Savinjska",2002,"0-14 let",40776
+"299","Savinjska",2002,"15-64 let",181349
+"300","Savinjska",2002,"65 + let",34746
+"301","Savinjska",2003,"0-14 let",39715
+"302","Savinjska",2003,"15-64 let",181930
+"303","Savinjska",2003,"65 + let",35323
+"304","Savinjska",2004,"0-14 let",38644
+"305","Savinjska",2004,"15-64 let",182223
+"306","Savinjska",2004,"65 + let",35943
+"307","Savinjska",2005,"0-14 let",38015
+"308","Savinjska",2005,"15-64 let",182080
+"309","Savinjska",2005,"65 + let",36657
+"310","Savinjska",2006,"0-14 let",37425
+"311","Savinjska",2006,"15-64 let",182617
+"312","Savinjska",2006,"65 + let",37333
+"313","Savinjska",2007,"0-14 let",37083
+"314","Savinjska",2007,"15-64 let",183378
+"315","Savinjska",2007,"65 + let",38019
+"316","Savinjska",2008,"0-14 let",37072
+"317","Savinjska",2008,"15-64 let",185041
+"318","Savinjska",2008,"65 + let",39130
+"319","Savinjska",2009,"0-14 let",37260
+"320","Savinjska",2009,"15-64 let",181227
+"321","Savinjska",2009,"65 + let",40358
+"322","Savinjska",2010,"0-14 let",37437
+"323","Savinjska",2010,"15-64 let",181377
+"324","Savinjska",2010,"65 + let",41211
+"325","Savinjska",2011,"0-14 let",37749
+"326","Savinjska",2011,"15-64 let",180468
+"327","Savinjska",2011,"65 + let",41509
+"328","Savinjska",2012,"0-14 let",38041
+"329","Savinjska",2012,"15-64 let",179981
+"330","Savinjska",2012,"65 + let",42231
+"331","Savinjska",2013,"0-14 let",38447
+"332","Savinjska",2013,"15-64 let",178726
+"333","Savinjska",2013,"65 + let",43044
+"334","Savinjska",2014,"0-14 let",38699
+"335","Savinjska",2014,"15-64 let",177243
+"336","Savinjska",2014,"65 + let",43911
+"337","Savinjska",2015,"0-14 let",38140
+"338","Savinjska",2015,"15-64 let",171786
+"339","Savinjska",2015,"65 + let",44049
+"340","Savinjska",2016,"0-14 let",38398
+"341","Savinjska",2016,"15-64 let",170655
+"342","Savinjska",2016,"65 + let",45265
+"343","Savinjska",2017,"0-14 let",38532
+"344","Savinjska",2017,"15-64 let",169800
+"345","Savinjska",2017,"65 + let",46429
+"346","Zasavska",1995,"0-14 let",8326
+"347","Zasavska",1995,"15-64 let",32176
+"348","Zasavska",1995,"65 + let",6195
+"349","Zasavska",1996,"0-14 let",8177
+"350","Zasavska",1996,"15-64 let",32457
+"351","Zasavska",1996,"65 + let",6478
+"352","Zasavska",1997,"0-14 let",7849
+"353","Zasavska",1997,"15-64 let",32464
+"354","Zasavska",1997,"65 + let",6588
+"355","Zasavska",1998,"0-14 let",7586
+"356","Zasavska",1998,"15-64 let",32347
+"357","Zasavska",1998,"65 + let",6780
+"358","Zasavska",1999,"0-14 let",7351
+"359","Zasavska",1999,"15-64 let",32137
+"360","Zasavska",1999,"65 + let",6925
+"361","Zasavska",2000,"0-14 let",7127
+"362","Zasavska",2000,"15-64 let",32307
+"363","Zasavska",2000,"65 + let",7017
+"364","Zasavska",2001,"0-14 let",6894
+"365","Zasavska",2001,"15-64 let",32235
+"366","Zasavska",2001,"65 + let",7072
+"367","Zasavska",2002,"0-14 let",6663
+"368","Zasavska",2002,"15-64 let",32349
+"369","Zasavska",2002,"65 + let",7111
+"370","Zasavska",2003,"0-14 let",6389
+"371","Zasavska",2003,"15-64 let",32368
+"372","Zasavska",2003,"65 + let",7162
+"373","Zasavska",2004,"0-14 let",6151
+"374","Zasavska",2004,"15-64 let",32382
+"375","Zasavska",2004,"65 + let",7229
+"376","Zasavska",2005,"0-14 let",5946
+"377","Zasavska",2005,"15-64 let",32341
+"378","Zasavska",2005,"65 + let",7260
+"379","Zasavska",2006,"0-14 let",5830
+"380","Zasavska",2006,"15-64 let",32171
+"381","Zasavska",2006,"65 + let",7355
+"382","Zasavska",2007,"0-14 let",5751
+"383","Zasavska",2007,"15-64 let",32022
+"384","Zasavska",2007,"65 + let",7456
+"385","Zasavska",2008,"0-14 let",5760
+"386","Zasavska",2008,"15-64 let",31813
+"387","Zasavska",2008,"65 + let",7653
+"388","Zasavska",2009,"0-14 let",5727
+"389","Zasavska",2009,"15-64 let",31150
+"390","Zasavska",2009,"65 + let",7873
+"391","Zasavska",2010,"0-14 let",5737
+"392","Zasavska",2010,"15-64 let",30975
+"393","Zasavska",2010,"65 + let",7994
+"394","Zasavska",2011,"0-14 let",5675
+"395","Zasavska",2011,"15-64 let",30645
+"396","Zasavska",2011,"65 + let",7902
+"397","Zasavska",2012,"0-14 let",5706
+"398","Zasavska",2012,"15-64 let",30265
+"399","Zasavska",2012,"65 + let",7955
+"400","Zasavska",2013,"0-14 let",5666
+"401","Zasavska",2013,"15-64 let",29735
+"402","Zasavska",2013,"65 + let",8101
+"403","Zasavska",2014,"0-14 let",5622
+"404","Zasavska",2014,"15-64 let",29194
+"405","Zasavska",2014,"65 + let",8167
+"406","Zasavska",2015,"0-14 let",8004
+"407","Zasavska",2015,"15-64 let",39131
+"408","Zasavska",2015,"65 + let",10576
+"409","Zasavska",2016,"0-14 let",7980
+"410","Zasavska",2016,"15-64 let",38521
+"411","Zasavska",2016,"65 + let",10903
+"412","Zasavska",2017,"0-14 let",8058
+"413","Zasavska",2017,"15-64 let",38057
+"414","Zasavska",2017,"65 + let",11165
+"415","Posavska",1995,"0-14 let",13419
+"416","Posavska",1995,"15-64 let",48982
+"417","Posavska",1995,"65 + let",9607
+"418","Posavska",1996,"0-14 let",13124
+"419","Posavska",1996,"15-64 let",48266
+"420","Posavska",1996,"65 + let",9874
+"421","Posavska",1997,"0-14 let",12536
+"422","Posavska",1997,"15-64 let",47800
+"423","Posavska",1997,"65 + let",9962
+"424","Posavska",1998,"0-14 let",12193
+"425","Posavska",1998,"15-64 let",47736
+"426","Posavska",1998,"65 + let",10106
+"427","Posavska",1999,"0-14 let",11855
+"428","Posavska",1999,"15-64 let",47671
+"429","Posavska",1999,"65 + let",10313
+"430","Posavska",2000,"0-14 let",11462
+"431","Posavska",2000,"15-64 let",47939
+"432","Posavska",2000,"65 + let",10443
+"433","Posavska",2001,"0-14 let",11197
+"434","Posavska",2001,"15-64 let",47889
+"435","Posavska",2001,"65 + let",10616
+"436","Posavska",2002,"0-14 let",10938
+"437","Posavska",2002,"15-64 let",48081
+"438","Posavska",2002,"65 + let",10795
+"439","Posavska",2003,"0-14 let",10728
+"440","Posavska",2003,"15-64 let",48192
+"441","Posavska",2003,"65 + let",10975
+"442","Posavska",2004,"0-14 let",10326
+"443","Posavska",2004,"15-64 let",48596
+"444","Posavska",2004,"65 + let",11133
+"445","Posavska",2005,"0-14 let",10065
+"446","Posavska",2005,"15-64 let",48517
+"447","Posavska",2005,"65 + let",11244
+"448","Posavska",2006,"0-14 let",9901
+"449","Posavska",2006,"15-64 let",48617
+"450","Posavska",2006,"65 + let",11381
+"451","Posavska",2007,"0-14 let",9785
+"452","Posavska",2007,"15-64 let",48824
+"453","Posavska",2007,"65 + let",11449
+"454","Posavska",2008,"0-14 let",9706
+"455","Posavska",2008,"15-64 let",49086
+"456","Posavska",2008,"65 + let",11561
+"457","Posavska",2009,"0-14 let",9624
+"458","Posavska",2009,"15-64 let",48366
+"459","Posavska",2009,"65 + let",11910
+"460","Posavska",2010,"0-14 let",9697
+"461","Posavska",2010,"15-64 let",48522
+"462","Posavska",2010,"65 + let",11973
+"463","Posavska",2011,"0-14 let",9758
+"464","Posavska",2011,"15-64 let",48449
+"465","Posavska",2011,"65 + let",11960
+"466","Posavska",2012,"0-14 let",9845
+"467","Posavska",2012,"15-64 let",48174
+"468","Posavska",2012,"65 + let",12145
+"469","Posavska",2013,"0-14 let",9916
+"470","Posavska",2013,"15-64 let",47944
+"471","Posavska",2013,"65 + let",12351
+"472","Posavska",2014,"0-14 let",10013
+"473","Posavska",2014,"15-64 let",47375
+"474","Posavska",2014,"65 + let",12570
+"475","Posavska",2015,"0-14 let",10865
+"476","Posavska",2015,"15-64 let",50810
+"477","Posavska",2015,"65 + let",13944
+"478","Posavska",2016,"0-14 let",10978
+"479","Posavska",2016,"15-64 let",50452
+"480","Posavska",2016,"65 + let",14281
+"481","Posavska",2017,"0-14 let",11009
+"482","Posavska",2017,"15-64 let",49921
+"483","Posavska",2017,"65 + let",14614
+"484","Jugovzhodna Slovenija",1995,"0-14 let",21881
+"485","Jugovzhodna Slovenija",1995,"15-64 let",71357
+"486","Jugovzhodna Slovenija",1995,"65 + let",11566
+"487","Jugovzhodna Slovenija",1996,"0-14 let",21637
+"488","Jugovzhodna Slovenija",1996,"15-64 let",71500
+"489","Jugovzhodna Slovenija",1996,"65 + let",12003
+"490","Jugovzhodna Slovenija",1997,"0-14 let",21207
+"491","Jugovzhodna Slovenija",1997,"15-64 let",72081
+"492","Jugovzhodna Slovenija",1997,"65 + let",12580
+"493","Jugovzhodna Slovenija",1998,"0-14 let",20654
+"494","Jugovzhodna Slovenija",1998,"15-64 let",72481
+"495","Jugovzhodna Slovenija",1998,"65 + let",12993
+"496","Jugovzhodna Slovenija",1999,"0-14 let",20138
+"497","Jugovzhodna Slovenija",1999,"15-64 let",72434
+"498","Jugovzhodna Slovenija",1999,"65 + let",13341
+"499","Jugovzhodna Slovenija",2000,"0-14 let",25141
+"500","Jugovzhodna Slovenija",2000,"15-64 let",94485
+"501","Jugovzhodna Slovenija",2000,"65 + let",18300
+"502","Jugovzhodna Slovenija",2001,"0-14 let",24551
+"503","Jugovzhodna Slovenija",2001,"15-64 let",94754
+"504","Jugovzhodna Slovenija",2001,"65 + let",18793
+"505","Jugovzhodna Slovenija",2002,"0-14 let",24000
+"506","Jugovzhodna Slovenija",2002,"15-64 let",95071
+"507","Jugovzhodna Slovenija",2002,"65 + let",19309
+"508","Jugovzhodna Slovenija",2003,"0-14 let",23285
+"509","Jugovzhodna Slovenija",2003,"15-64 let",95598
+"510","Jugovzhodna Slovenija",2003,"65 + let",19761
+"511","Jugovzhodna Slovenija",2004,"0-14 let",22577
+"512","Jugovzhodna Slovenija",2004,"15-64 let",96121
+"513","Jugovzhodna Slovenija",2004,"65 + let",20150
+"514","Jugovzhodna Slovenija",2005,"0-14 let",22031
+"515","Jugovzhodna Slovenija",2005,"15-64 let",96513
+"516","Jugovzhodna Slovenija",2005,"65 + let",20551
+"517","Jugovzhodna Slovenija",2006,"0-14 let",21631
+"518","Jugovzhodna Slovenija",2006,"15-64 let",97203
+"519","Jugovzhodna Slovenija",2006,"65 + let",20913
+"520","Jugovzhodna Slovenija",2007,"0-14 let",21385
+"521","Jugovzhodna Slovenija",2007,"15-64 let",97553
+"522","Jugovzhodna Slovenija",2007,"65 + let",21320
+"523","Jugovzhodna Slovenija",2008,"0-14 let",21242
+"524","Jugovzhodna Slovenija",2008,"15-64 let",98657
+"525","Jugovzhodna Slovenija",2008,"65 + let",21648
+"526","Jugovzhodna Slovenija",2009,"0-14 let",21178
+"527","Jugovzhodna Slovenija",2009,"15-64 let",97898
+"528","Jugovzhodna Slovenija",2009,"65 + let",22090
+"529","Jugovzhodna Slovenija",2010,"0-14 let",21168
+"530","Jugovzhodna Slovenija",2010,"15-64 let",98737
+"531","Jugovzhodna Slovenija",2010,"65 + let",22187
+"532","Jugovzhodna Slovenija",2011,"0-14 let",21351
+"533","Jugovzhodna Slovenija",2011,"15-64 let",98945
+"534","Jugovzhodna Slovenija",2011,"65 + let",22187
+"535","Jugovzhodna Slovenija",2012,"0-14 let",21626
+"536","Jugovzhodna Slovenija",2012,"15-64 let",98531
+"537","Jugovzhodna Slovenija",2012,"65 + let",22523
+"538","Jugovzhodna Slovenija",2013,"0-14 let",21856
+"539","Jugovzhodna Slovenija",2013,"15-64 let",97693
+"540","Jugovzhodna Slovenija",2013,"65 + let",22960
+"541","Jugovzhodna Slovenija",2014,"0-14 let",22097
+"542","Jugovzhodna Slovenija",2014,"15-64 let",96939
+"543","Jugovzhodna Slovenija",2014,"65 + let",23369
+"544","Jugovzhodna Slovenija",2015,"0-14 let",22316
+"545","Jugovzhodna Slovenija",2015,"15-64 let",96139
+"546","Jugovzhodna Slovenija",2015,"65 + let",23918
+"547","Jugovzhodna Slovenija",2016,"0-14 let",22503
+"548","Jugovzhodna Slovenija",2016,"15-64 let",95528
+"549","Jugovzhodna Slovenija",2016,"65 + let",24535
+"550","Jugovzhodna Slovenija",2017,"0-14 let",22637
+"551","Jugovzhodna Slovenija",2017,"15-64 let",94950
+"552","Jugovzhodna Slovenija",2017,"65 + let",25124
+"553","Osrednjeslovenska",1995,"0-14 let",96063
+"554","Osrednjeslovenska",1995,"15-64 let",357795
+"555","Osrednjeslovenska",1995,"65 + let",59442
+"556","Osrednjeslovenska",1996,"0-14 let",94072
+"557","Osrednjeslovenska",1996,"15-64 let",361790
+"558","Osrednjeslovenska",1996,"65 + let",62266
+"559","Osrednjeslovenska",1997,"0-14 let",90790
+"560","Osrednjeslovenska",1997,"15-64 let",362444
+"561","Osrednjeslovenska",1997,"65 + let",64078
+"562","Osrednjeslovenska",1998,"0-14 let",88400
+"563","Osrednjeslovenska",1998,"15-64 let",362599
+"564","Osrednjeslovenska",1998,"65 + let",66264
+"565","Osrednjeslovenska",1999,"0-14 let",86069
+"566","Osrednjeslovenska",1999,"15-64 let",361012
+"567","Osrednjeslovenska",1999,"65 + let",68213
+"568","Osrednjeslovenska",2000,"0-14 let",78890
+"569","Osrednjeslovenska",2000,"15-64 let",343189
+"570","Osrednjeslovenska",2000,"65 + let",65710
+"571","Osrednjeslovenska",2001,"0-14 let",77830
+"572","Osrednjeslovenska",2001,"15-64 let",344809
+"573","Osrednjeslovenska",2001,"65 + let",67509
+"574","Osrednjeslovenska",2002,"0-14 let",76505
+"575","Osrednjeslovenska",2002,"15-64 let",345902
+"576","Osrednjeslovenska",2002,"65 + let",69710
+"577","Osrednjeslovenska",2003,"0-14 let",75056
+"578","Osrednjeslovenska",2003,"15-64 let",346663
+"579","Osrednjeslovenska",2003,"65 + let",71713
+"580","Osrednjeslovenska",2004,"0-14 let",73608
+"581","Osrednjeslovenska",2004,"15-64 let",347960
+"582","Osrednjeslovenska",2004,"65 + let",73533
+"583","Osrednjeslovenska",2005,"0-14 let",72817
+"584","Osrednjeslovenska",2005,"15-64 let",348349
+"585","Osrednjeslovenska",2005,"65 + let",75509
+"586","Osrednjeslovenska",2006,"0-14 let",72686
+"587","Osrednjeslovenska",2006,"15-64 let",349781
+"588","Osrednjeslovenska",2006,"65 + let",77554
+"589","Osrednjeslovenska",2007,"0-14 let",72796
+"590","Osrednjeslovenska",2007,"15-64 let",351564
+"591","Osrednjeslovenska",2007,"65 + let",79575
+"592","Osrednjeslovenska",2008,"0-14 let",73556
+"593","Osrednjeslovenska",2008,"15-64 let",353551
+"594","Osrednjeslovenska",2008,"65 + let",81500
+"595","Osrednjeslovenska",2009,"0-14 let",75610
+"596","Osrednjeslovenska",2009,"15-64 let",363859
+"597","Osrednjeslovenska",2009,"65 + let",82496
+"598","Osrednjeslovenska",2010,"0-14 let",77443
+"599","Osrednjeslovenska",2010,"15-64 let",368655
+"600","Osrednjeslovenska",2010,"65 + let",83548
+"601","Osrednjeslovenska",2011,"0-14 let",79388
+"602","Osrednjeslovenska",2011,"15-64 let",369864
+"603","Osrednjeslovenska",2011,"65 + let",83961
+"604","Osrednjeslovenska",2012,"0-14 let",81099
+"605","Osrednjeslovenska",2012,"15-64 let",369538
+"606","Osrednjeslovenska",2012,"65 + let",85847
+"607","Osrednjeslovenska",2013,"0-14 let",82955
+"608","Osrednjeslovenska",2013,"15-64 let",370871
+"609","Osrednjeslovenska",2013,"65 + let",87892
+"610","Osrednjeslovenska",2014,"0-14 let",84414
+"611","Osrednjeslovenska",2014,"15-64 let",371801
+"612","Osrednjeslovenska",2014,"65 + let",90099
+"613","Osrednjeslovenska",2015,"0-14 let",83652
+"614","Osrednjeslovenska",2015,"15-64 let",360653
+"615","Osrednjeslovenska",2015,"65 + let",90213
+"616","Osrednjeslovenska",2016,"0-14 let",84618
+"617","Osrednjeslovenska",2016,"15-64 let",359336
+"618","Osrednjeslovenska",2016,"65 + let",93069
+"619","Osrednjeslovenska",2017,"0-14 let",85644
+"620","Osrednjeslovenska",2017,"15-64 let",358268
+"621","Osrednjeslovenska",2017,"65 + let",95760
+"622","Gorenjska",1995,"0-14 let",38284
+"623","Gorenjska",1995,"15-64 let",134451
+"624","Gorenjska",1995,"65 + let",22072
+"625","Gorenjska",1996,"0-14 let",37567
+"626","Gorenjska",1996,"15-64 let",134443
+"627","Gorenjska",1996,"65 + let",23177
+"628","Gorenjska",1997,"0-14 let",36513
+"629","Gorenjska",1997,"15-64 let",135012
+"630","Gorenjska",1997,"65 + let",23847
+"631","Gorenjska",1998,"0-14 let",35595
+"632","Gorenjska",1998,"15-64 let",135299
+"633","Gorenjska",1998,"65 + let",24744
+"634","Gorenjska",1999,"0-14 let",34563
+"635","Gorenjska",1999,"15-64 let",135215
+"636","Gorenjska",1999,"65 + let",25433
+"637","Gorenjska",2000,"0-14 let",33707
+"638","Gorenjska",2000,"15-64 let",136639
+"639","Gorenjska",2000,"65 + let",26131
+"640","Gorenjska",2001,"0-14 let",33072
+"641","Gorenjska",2001,"15-64 let",136693
+"642","Gorenjska",2001,"65 + let",26936
+"643","Gorenjska",2002,"0-14 let",32426
+"644","Gorenjska",2002,"15-64 let",137091
+"645","Gorenjska",2002,"65 + let",27760
+"646","Gorenjska",2003,"0-14 let",31714
+"647","Gorenjska",2003,"15-64 let",137370
+"648","Gorenjska",2003,"65 + let",28564
+"649","Gorenjska",2004,"0-14 let",30868
+"650","Gorenjska",2004,"15-64 let",137697
+"651","Gorenjska",2004,"65 + let",29269
+"652","Gorenjska",2005,"0-14 let",30485
+"653","Gorenjska",2005,"15-64 let",137775
+"654","Gorenjska",2005,"65 + let",30082
+"655","Gorenjska",2006,"0-14 let",30062
+"656","Gorenjska",2006,"15-64 let",138107
+"657","Gorenjska",2006,"65 + let",30916
+"658","Gorenjska",2007,"0-14 let",29925
+"659","Gorenjska",2007,"15-64 let",138119
+"660","Gorenjska",2007,"65 + let",31858
+"661","Gorenjska",2008,"0-14 let",29931
+"662","Gorenjska",2008,"15-64 let",138807
+"663","Gorenjska",2008,"65 + let",32516
+"664","Gorenjska",2009,"0-14 let",30256
+"665","Gorenjska",2009,"15-64 let",138366
+"666","Gorenjska",2009,"65 + let",33157
+"667","Gorenjska",2010,"0-14 let",30576
+"668","Gorenjska",2010,"15-64 let",138598
+"669","Gorenjska",2010,"65 + let",33729
+"670","Gorenjska",2011,"0-14 let",31033
+"671","Gorenjska",2011,"15-64 let",138607
+"672","Gorenjska",2011,"65 + let",33787
+"673","Gorenjska",2012,"0-14 let",31335
+"674","Gorenjska",2012,"15-64 let",138251
+"675","Gorenjska",2012,"65 + let",34471
+"676","Gorenjska",2013,"0-14 let",31636
+"677","Gorenjska",2013,"15-64 let",137013
+"678","Gorenjska",2013,"65 + let",35335
+"679","Gorenjska",2014,"0-14 let",31914
+"680","Gorenjska",2014,"15-64 let",135930
+"681","Gorenjska",2014,"65 + let",36050
+"682","Gorenjska",2015,"0-14 let",32080
+"683","Gorenjska",2015,"15-64 let",134887
+"684","Gorenjska",2015,"65 + let",36883
+"685","Gorenjska",2016,"0-14 let",32221
+"686","Gorenjska",2016,"15-64 let",133702
+"687","Gorenjska",2016,"65 + let",37915
+"688","Gorenjska",2017,"0-14 let",32369
+"689","Gorenjska",2017,"15-64 let",132538
+"690","Gorenjska",2017,"65 + let",38893
+"691","Primorsko-notranjska",1995,"0-14 let",9059
+"692","Primorsko-notranjska",1995,"15-64 let",33293
+"693","Primorsko-notranjska",1995,"65 + let",7098
+"694","Primorsko-notranjska",1996,"0-14 let",9138
+"695","Primorsko-notranjska",1996,"15-64 let",34225
+"696","Primorsko-notranjska",1996,"65 + let",7374
+"697","Primorsko-notranjska",1997,"0-14 let",8765
+"698","Primorsko-notranjska",1997,"15-64 let",34119
+"699","Primorsko-notranjska",1997,"65 + let",7459
+"700","Primorsko-notranjska",1998,"0-14 let",8451
+"701","Primorsko-notranjska",1998,"15-64 let",34297
+"702","Primorsko-notranjska",1998,"65 + let",7617
+"703","Primorsko-notranjska",1999,"0-14 let",8156
+"704","Primorsko-notranjska",1999,"15-64 let",34309
+"705","Primorsko-notranjska",1999,"65 + let",7675
+"706","Primorsko-notranjska",2000,"0-14 let",8042
+"707","Primorsko-notranjska",2000,"15-64 let",34667
+"708","Primorsko-notranjska",2000,"65 + let",7835
+"709","Primorsko-notranjska",2001,"0-14 let",7799
+"710","Primorsko-notranjska",2001,"15-64 let",34885
+"711","Primorsko-notranjska",2001,"65 + let",7901
+"712","Primorsko-notranjska",2002,"0-14 let",7641
+"713","Primorsko-notranjska",2002,"15-64 let",35065
+"714","Primorsko-notranjska",2002,"65 + let",8054
+"715","Primorsko-notranjska",2003,"0-14 let",7416
+"716","Primorsko-notranjska",2003,"15-64 let",35249
+"717","Primorsko-notranjska",2003,"65 + let",8110
+"718","Primorsko-notranjska",2004,"0-14 let",7281
+"719","Primorsko-notranjska",2004,"15-64 let",35434
+"720","Primorsko-notranjska",2004,"65 + let",8198
+"721","Primorsko-notranjska",2005,"0-14 let",7212
+"722","Primorsko-notranjska",2005,"15-64 let",35447
+"723","Primorsko-notranjska",2005,"65 + let",8373
+"724","Primorsko-notranjska",2006,"0-14 let",7130
+"725","Primorsko-notranjska",2006,"15-64 let",35491
+"726","Primorsko-notranjska",2006,"65 + let",8552
+"727","Primorsko-notranjska",2007,"0-14 let",7056
+"728","Primorsko-notranjska",2007,"15-64 let",35705
+"729","Primorsko-notranjska",2007,"65 + let",8722
+"730","Primorsko-notranjska",2008,"0-14 let",7093
+"731","Primorsko-notranjska",2008,"15-64 let",36176
+"732","Primorsko-notranjska",2008,"65 + let",8814
+"733","Primorsko-notranjska",2009,"0-14 let",7196
+"734","Primorsko-notranjska",2009,"15-64 let",35557
+"735","Primorsko-notranjska",2009,"65 + let",8975
+"736","Primorsko-notranjska",2010,"0-14 let",7268
+"737","Primorsko-notranjska",2010,"15-64 let",35994
+"738","Primorsko-notranjska",2010,"65 + let",8955
+"739","Primorsko-notranjska",2011,"0-14 let",7399
+"740","Primorsko-notranjska",2011,"15-64 let",36035
+"741","Primorsko-notranjska",2011,"65 + let",8853
+"742","Primorsko-notranjska",2012,"0-14 let",7487
+"743","Primorsko-notranjska",2012,"15-64 let",35867
+"744","Primorsko-notranjska",2012,"65 + let",9033
+"745","Primorsko-notranjska",2013,"0-14 let",7620
+"746","Primorsko-notranjska",2013,"15-64 let",35526
+"747","Primorsko-notranjska",2013,"65 + let",9236
+"748","Primorsko-notranjska",2014,"0-14 let",7804
+"749","Primorsko-notranjska",2014,"15-64 let",35156
+"750","Primorsko-notranjska",2014,"65 + let",9489
+"751","Primorsko-notranjska",2015,"0-14 let",7825
+"752","Primorsko-notranjska",2015,"15-64 let",34935
+"753","Primorsko-notranjska",2015,"65 + let",9778
+"754","Primorsko-notranjska",2016,"0-14 let",7901
+"755","Primorsko-notranjska",2016,"15-64 let",34599
+"756","Primorsko-notranjska",2016,"65 + let",10023
+"757","Primorsko-notranjska",2017,"0-14 let",7974
+"758","Primorsko-notranjska",2017,"15-64 let",34314
+"759","Primorsko-notranjska",2017,"65 + let",10294
+"760","Gori<U+009A>ka",1995,"0-14 let",21156
+"761","Gori<U+009A>ka",1995,"15-64 let",81426
+"762","Gori<U+009A>ka",1995,"65 + let",17246
+"763","Gori<U+009A>ka",1996,"0-14 let",20659
+"764","Gori<U+009A>ka",1996,"15-64 let",82485
+"765","Gori<U+009A>ka",1996,"65 + let",17816
+"766","Gori<U+009A>ka",1997,"0-14 let",19920
+"767","Gori<U+009A>ka",1997,"15-64 let",82770
+"768","Gori<U+009A>ka",1997,"65 + let",18172
+"769","Gori<U+009A>ka",1998,"0-14 let",19299
+"770","Gori<U+009A>ka",1998,"15-64 let",82509
+"771","Gori<U+009A>ka",1998,"65 + let",18478
+"772","Gori<U+009A>ka",1999,"0-14 let",18825
+"773","Gori<U+009A>ka",1999,"15-64 let",82212
+"774","Gori<U+009A>ka",1999,"65 + let",18622
+"775","Gori<U+009A>ka",2000,"0-14 let",18389
+"776","Gori<U+009A>ka",2000,"15-64 let",83018
+"777","Gori<U+009A>ka",2000,"65 + let",19037
+"778","Gori<U+009A>ka",2001,"0-14 let",18034
+"779","Gori<U+009A>ka",2001,"15-64 let",83041
+"780","Gori<U+009A>ka",2001,"65 + let",19239
+"781","Gori<U+009A>ka",2002,"0-14 let",17705
+"782","Gori<U+009A>ka",2002,"15-64 let",83212
+"783","Gori<U+009A>ka",2002,"65 + let",19496
+"784","Gori<U+009A>ka",2003,"0-14 let",17250
+"785","Gori<U+009A>ka",2003,"15-64 let",82870
+"786","Gori<U+009A>ka",2003,"65 + let",19818
+"787","Gori<U+009A>ka",2004,"0-14 let",16759
+"788","Gori<U+009A>ka",2004,"15-64 let",82880
+"789","Gori<U+009A>ka",2004,"65 + let",20103
+"790","Gori<U+009A>ka",2005,"0-14 let",16466
+"791","Gori<U+009A>ka",2005,"15-64 let",82614
+"792","Gori<U+009A>ka",2005,"65 + let",20542
+"793","Gori<U+009A>ka",2006,"0-14 let",16270
+"794","Gori<U+009A>ka",2006,"15-64 let",82477
+"795","Gori<U+009A>ka",2006,"65 + let",20881
+"796","Gori<U+009A>ka",2007,"0-14 let",16015
+"797","Gori<U+009A>ka",2007,"15-64 let",82166
+"798","Gori<U+009A>ka",2007,"65 + let",21296
+"799","Gori<U+009A>ka",2008,"0-14 let",15989
+"800","Gori<U+009A>ka",2008,"15-64 let",82769
+"801","Gori<U+009A>ka",2008,"65 + let",21571
+"802","Gori<U+009A>ka",2009,"0-14 let",16023
+"803","Gori<U+009A>ka",2009,"15-64 let",80743
+"804","Gori<U+009A>ka",2009,"65 + let",21767
+"805","Gori<U+009A>ka",2010,"0-14 let",16201
+"806","Gori<U+009A>ka",2010,"15-64 let",81359
+"807","Gori<U+009A>ka",2010,"65 + let",21520
+"808","Gori<U+009A>ka",2011,"0-14 let",16459
+"809","Gori<U+009A>ka",2011,"15-64 let",81435
+"810","Gori<U+009A>ka",2011,"65 + let",21252
+"811","Gori<U+009A>ka",2012,"0-14 let",16696
+"812","Gori<U+009A>ka",2012,"15-64 let",80801
+"813","Gori<U+009A>ka",2012,"65 + let",21739
+"814","Gori<U+009A>ka",2013,"0-14 let",16930
+"815","Gori<U+009A>ka",2013,"15-64 let",79928
+"816","Gori<U+009A>ka",2013,"65 + let",22144
+"817","Gori<U+009A>ka",2014,"0-14 let",17089
+"818","Gori<U+009A>ka",2014,"15-64 let",78548
+"819","Gori<U+009A>ka",2014,"65 + let",22737
+"820","Gori<U+009A>ka",2015,"0-14 let",17219
+"821","Gori<U+009A>ka",2015,"15-64 let",77575
+"822","Gori<U+009A>ka",2015,"65 + let",23394
+"823","Gori<U+009A>ka",2016,"0-14 let",17254
+"824","Gori<U+009A>ka",2016,"15-64 let",76634
+"825","Gori<U+009A>ka",2016,"65 + let",24176
+"826","Gori<U+009A>ka",2017,"0-14 let",17291
+"827","Gori<U+009A>ka",2017,"15-64 let",75594
+"828","Gori<U+009A>ka",2017,"65 + let",24862
+"829","Obalno-kra<U+009A>ka",1995,"0-14 let",17025
+"830","Obalno-kra<U+009A>ka",1995,"15-64 let",71261
+"831","Obalno-kra<U+009A>ka",1995,"65 + let",13349
+"832","Obalno-kra<U+009A>ka",1996,"0-14 let",16595
+"833","Obalno-kra<U+009A>ka",1996,"15-64 let",72625
+"834","Obalno-kra<U+009A>ka",1996,"65 + let",14028
+"835","Obalno-kra<U+009A>ka",1997,"0-14 let",15896
+"836","Obalno-kra<U+009A>ka",1997,"15-64 let",72807
+"837","Obalno-kra<U+009A>ka",1997,"65 + let",14324
+"838","Obalno-kra<U+009A>ka",1998,"0-14 let",15279
+"839","Obalno-kra<U+009A>ka",1998,"15-64 let",72848
+"840","Obalno-kra<U+009A>ka",1998,"65 + let",14700
+"841","Obalno-kra<U+009A>ka",1999,"0-14 let",14759
+"842","Obalno-kra<U+009A>ka",1999,"15-64 let",72589
+"843","Obalno-kra<U+009A>ka",1999,"65 + let",15070
+"844","Obalno-kra<U+009A>ka",2000,"0-14 let",14352
+"845","Obalno-kra<U+009A>ka",2000,"15-64 let",73394
+"846","Obalno-kra<U+009A>ka",2000,"65 + let",15582
+"847","Obalno-kra<U+009A>ka",2001,"0-14 let",14088
+"848","Obalno-kra<U+009A>ka",2001,"15-64 let",73739
+"849","Obalno-kra<U+009A>ka",2001,"65 + let",15990
+"850","Obalno-kra<U+009A>ka",2002,"0-14 let",13789
+"851","Obalno-kra<U+009A>ka",2002,"15-64 let",74085
+"852","Obalno-kra<U+009A>ka",2002,"65 + let",16344
+"853","Obalno-kra<U+009A>ka",2003,"0-14 let",13405
+"854","Obalno-kra<U+009A>ka",2003,"15-64 let",74484
+"855","Obalno-kra<U+009A>ka",2003,"65 + let",16670
+"856","Obalno-kra<U+009A>ka",2004,"0-14 let",13072
+"857","Obalno-kra<U+009A>ka",2004,"15-64 let",74891
+"858","Obalno-kra<U+009A>ka",2004,"65 + let",17046
+"859","Obalno-kra<U+009A>ka",2005,"0-14 let",12811
+"860","Obalno-kra<U+009A>ka",2005,"15-64 let",74724
+"861","Obalno-kra<U+009A>ka",2005,"65 + let",17494
+"862","Obalno-kra<U+009A>ka",2006,"0-14 let",12628
+"863","Obalno-kra<U+009A>ka",2006,"15-64 let",75102
+"864","Obalno-kra<U+009A>ka",2006,"65 + let",17902
+"865","Obalno-kra<U+009A>ka",2007,"0-14 let",12568
+"866","Obalno-kra<U+009A>ka",2007,"15-64 let",75252
+"867","Obalno-kra<U+009A>ka",2007,"65 + let",18342
+"868","Obalno-kra<U+009A>ka",2008,"0-14 let",12814
+"869","Obalno-kra<U+009A>ka",2008,"15-64 let",76476
+"870","Obalno-kra<U+009A>ka",2008,"65 + let",18615
+"871","Obalno-kra<U+009A>ka",2009,"0-14 let",13206
+"872","Obalno-kra<U+009A>ka",2009,"15-64 let",76738
+"873","Obalno-kra<U+009A>ka",2009,"65 + let",18834
+"874","Obalno-kra<U+009A>ka",2010,"0-14 let",13616
+"875","Obalno-kra<U+009A>ka",2010,"15-64 let",77939
+"876","Obalno-kra<U+009A>ka",2010,"65 + let",18857
+"877","Obalno-kra<U+009A>ka",2011,"0-14 let",13949
+"878","Obalno-kra<U+009A>ka",2011,"15-64 let",78078
+"879","Obalno-kra<U+009A>ka",2011,"65 + let",18733
+"880","Obalno-kra<U+009A>ka",2012,"0-14 let",14278
+"881","Obalno-kra<U+009A>ka",2012,"15-64 let",77977
+"882","Obalno-kra<U+009A>ka",2012,"65 + let",19168
+"883","Obalno-kra<U+009A>ka",2013,"0-14 let",14733
+"884","Obalno-kra<U+009A>ka",2013,"15-64 let",77557
+"885","Obalno-kra<U+009A>ka",2013,"65 + let",19646
+"886","Obalno-kra<U+009A>ka",2014,"0-14 let",14947
+"887","Obalno-kra<U+009A>ka",2014,"15-64 let",77458
+"888","Obalno-kra<U+009A>ka",2014,"65 + let",20443
+"889","Obalno-kra<U+009A>ka",2015,"0-14 let",15280
+"890","Obalno-kra<U+009A>ka",2015,"15-64 let",76372
+"891","Obalno-kra<U+009A>ka",2015,"65 + let",21121
+"892","Obalno-kra<U+009A>ka",2016,"0-14 let",15517
+"893","Obalno-kra<U+009A>ka",2016,"15-64 let",75612
+"894","Obalno-kra<U+009A>ka",2016,"65 + let",21941
+"895","Obalno-kra<U+009A>ka",2017,"0-14 let",15734
+"896","Obalno-kra<U+009A>ka",2017,"15-64 let",75078
+"897","Obalno-kra<U+009A>ka",2017,"65 + let",22705
