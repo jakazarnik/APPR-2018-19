@@ -1,7 +1,7 @@
 ---
 title: "Analiza"
 author: "Jakob Zarnik"
-date: "1/3/2019"
+date: "3. januar 2019"
 output: html_document
 ---
 
