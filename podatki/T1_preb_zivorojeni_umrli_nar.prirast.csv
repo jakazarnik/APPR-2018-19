@@ -1,6 +1,6 @@
-"�tevilo prebivalcev in naravno gibanje prebivalstva po: LETO , MERITVE"
+"število prebivalcev in naravno gibanje prebivalstva po: LETO , MERITVE"
 
-"leto";"Prebivalstvo - 1. januar";"�ivorojeni";"Umrli";"Naravni prirast";"Naravni prirast na 1.000 prebivalcev"
+"leto";"prebivalstvo_1_januar";"živorojeni";"umrli";"Naravni prirast";"naravni prirast na 1.000 prebivalcev"
 "1922";1306529;39346;25088;14258;10.9
 "1923";1314182;40710;25003;15707;11.9
 "1924";1323284;40215;23297;16918;12.8

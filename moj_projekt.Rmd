@@ -1,30 +1,123 @@
 ---
-title: "Analiza gibanja prebivalstva po regijah v Sloveniji"
+title: "Poročilo pri predmetu Analiza podatkov s programom R"
 author: "Jakob Zarnik"
-date: "3. januar 2019"
-output: html_document
+output:
+  html_document: default
+  pdf_document:
+    includes:
+      in_header: lib/styles.sty
+    latex_engine: xelatex
+runtime: shiny
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r setup, echo=FALSE, results='hide', message=FALSE, warning=FALSE}
+# Če želimo nastaviti pisave v PDF-ju, odkomentiramo
+# in sledimo navodilom v programu.
+#source("fontconfig.r")
+
+# Uvoz vseh potrebnih knjižnic
+source("lib/libraries.r")
 ```
 
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
+```{r rstudio, echo=FALSE, results='asis'}
+# Izris povezave do RStudia na Binderju
+source("lib/rstudio.r")
 ```
 
-## Including Plots
 
-You can also embed plots, for example:
+## Obdelava, uvoz in čiščenje podatkov
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+```{r uvoz, echo=FALSE, message=FALSE}
+source("uvoz/uvoz.r")
+source("uvoz/moj_uvoz.r")
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Uvozil sem podatke o prebuvalstvu v Slovenskih statističnih regijah v obliki CSV s statističnega urada republike Slovenije. Podatke imam v šestih razpredelnicah v obliki *tidy data*.
+
+1. `povrsine` - podatki o površinah za vsako stat. regijo
+  - `regija` - spremenljivka: ime stat. reguije,
+  - `povrsina_km2` - meritev: povrsina v km$^2$ za vsako regijo.
+
+2. `gibanje_celotnega_prebivalstva` - podatki o prebivalstvu celotne Slovenije od 1922
+  - `leto` - spremenljivka: leto meritve,
+  - `prebivalstvo_1_januar` - meritev: število prebivastvan,
+  - `zivorojeni` - meritev: število rojenih ljudi v letu,
+  - `umrli` - meritev: število umrlih ljudi v letu.
+  
+3. `umrli` - podatki o umrlih po statističnih regijah
+  - `regija` - spremenljivka: ime statistične regije,
+  - `leto` - spremenljivka: leto meritve,
+  - `spol` - meritev: spol umrlih,
+  - `stevilo` - meritev: število umrlih ljudi.
+
+4. `zivorojeni` - podatki o prebivalstvu celotne Slovenije od 1922
+  - `regija` - spremenljivka: ime statistične regije,
+  - `leto` - spremenljivka: leto meritve,
+  - `spol` - meritev: spol živorojenih,
+  - `stevilo` - meritev: število živorojenih ljudi.
+
+5. `selitve` - podatki o prebivalstvu celotne Slovenije od 1922
+  - `regija` - spremenljivka: ime statistične regije,
+  - `leto` - spremenljivka: leto meritve,
+  - `vrsta_selitve` - meritev: vrsta selitve glede na notranje in zunanje selitve,
+  - `stevilo` - meritev: število preseljenih ljudi.
+
+6. `starostne_skupine` - podatki o prebivalstvu celotne Slovenije od 1922
+  - `regija` - spremenljivka: ime statistične regije,
+  - `leto` - spremenljivka: leto meritve,
+  - `starostna_skupina` - meritev: starostna skupina,
+  - `stevilo` - meritev: število ljudi, ki pripadajo določeni starostni skupini.
+
+
+**Opomba**: podatke o gostoti poselitve in naprimer število rojenih na 1000 prebivalcev sem tekom analize poračuna iz ostalih podatkov.
+
+Spodnji graf prikazuje gibanje prebivalstva republike Slovenije od leta 1922 naprej.
+
+```{r histogram, echo=FALSE, message=FALSE, fig.align='center', fig.cap='Graf števila prebivalcev RS'}
+ggplot(gibanje_celotnega_prebivalstva, aes(x=leto, y=prebivalstvo_1_januar)) + 
+  geom_line() +
+  ggtitle("Število prebivalcev Slovenije") + xlab("Leto") + ylab("Število prebivalcev")
+```
+
+***
+
+## Analiza in vizualizacija podatkov
+
+```{r vizualizacija, echo=FALSE, message=FALSE, warning=FALSE, results='hide'}
+source("vizualizacija/vizualizacija.r")
+```
+
+Spodnji zemljevid gostoto prebivalstva vsake statistične regije.
+
+```{r zemljevid, echo=FALSE, fig.align='center', fig.cap='Zemljevid povprečnega števila otrok v družini'}
+ggplot() + geom_polygon(data=left_join(zemljevid, povprecja, by=c("OB_UIME"="obcina")),
+                        aes(x=long, y=lat, group=group, fill=povprecje)) +
+  ggtitle("Povprečno število otrok v družini") + xlab("") + ylab("") +
+  guides(fill=guide_colorbar(title="Povprečje"))
+```
+
+***
+
+## Napredna analiza podatkov
+
+```{r analiza, echo=FALSE, message=FALSE}
+source("analiza/analiza.r")
+```
+
+Spodnji graf prikazuje povezavo med številom naselij in površino občine.
+
+```{r graf, echo=FALSE, fig.align='center', fig.cap='Povezava med številom naselij in površino občine'}
+ggplot(inner_join(obcine, data.frame(obcina=names(skupine),
+                                     skupina=factor(skupine)), by="obcina")
+, aes(x=povrsina, y=naselja, color=skupina, size=prebivalci/1000)) + geom_point() +
+  ggtitle("Število naselij glede na površino občine") +
+  xlab(expression("Površina (km"^2 * ")")) + ylab("Št. naselij") +
+  guides(color=guide_legend(title="Skupina"),
+         size=guide_legend(title="Prebivalci (* 1000)"))
+```
+
+***
+
+```{r shiny, echo=FALSE}
+shinyAppDir("shiny", options=list(width="100%", height=600))
+```

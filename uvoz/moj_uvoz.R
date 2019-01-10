@@ -37,6 +37,8 @@ starostne_skupine <- read_csv2(file = 'podatki/starostne_skupine.csv', col_names
 
 starostne_skupine <- starostne_skupine %>% fill(regija, leto) %>% filter(stevilo!=" ")
 
+#tabela 6:
+povrsine <- read_csv2(file = 'podatki/povrsine_regije.csv', col_names = TRUE, locale=locale(encoding="UTF-8"))
 
 #shranjene tabele v tidy data:
 write.csv(gibanje_celotnega_prebivalstva, file = 'podatki/tidy_data/TIDY_gibanje_celotnega_prebivalstva.csv')
@@ -44,4 +46,4 @@ write.csv(zivorojeni, file = 'podatki/tidy_data/TIDY_zivorojeni.csv')
 write.csv(umrli, file = 'podatki/tidy_data/TIDY_umrli.csv')
 write.csv(selitve, file = 'podatki/tidy_data/TIDY_selitve.csv')
 write.csv(starostne_skupine, file = 'podatki/tidy_data/TIDY_starostne_skupine.csv')
-
+write.csv(povrsine, file = 'podatki/tidy_data/TIDY_povrsine.csv')
