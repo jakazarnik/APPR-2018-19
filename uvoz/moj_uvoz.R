@@ -2,43 +2,44 @@ library(readr)
 library(dplyr)
 library(tidyr)
 
+loc <- locale(encoding = "Windows-1250", decimal_mark = ".")
 
 #tabela 1:
 gibanje_celotnega_prebivalstva <- read_csv2(file = 'podatki/T1_preb_zivorojeni_umrli_nar.prirast.csv',
-                                                   col_names=TRUE, skip=2, locale=locale(encoding="UTF-8"))
+                                                   col_names=TRUE, skip=2, locale=loc)
 
 gibanje_celotnega_prebivalstva <- gibanje_celotnega_prebivalstva[, c(1:4)]
 
 
 #tabela 2:
-zivorojeni <- read.csv2(file = 'podatki/rojstva_regije.csv', header=FALSE, skip=2, encoding='Windows-1250',
-                            col.names = c("regija", "leto", "spol", "stevilo"), na=c(" "))
+zivorojeni <- read_csv2(file = 'podatki/rojstva_regije.csv', skip=2,
+                        col_names = c("regija", "leto", "spol", "stevilo"), locale=loc)
 
 zivorojeni <- zivorojeni %>% fill(regija, leto) %>% filter(stevilo!=" ")
 
 
 #tabela 3:
-umrli <- read.csv2(file = 'podatki/smrti_regije.csv', header=FALSE, skip=2, encoding='Windows-1250',
-                               col.names = c("regija", "leto", "spol", "stevilo"), na=c(" "))
+umrli <- read_csv2(file = 'podatki/smrti_regije.csv', skip=2,
+                   col_names = c("regija", "leto", "spol", "stevilo"), locale=loc)
 
 umrli <- umrli %>% fill(regija, leto) %>% filter(stevilo!=" ")
 
 
 #tabela 4:
-selitve <- read.csv2(file = 'podatki/tabela_selitve.csv', header=FALSE, skip=2, encoding='Windows-1250',
-                            col.names = c("regija", "leto", "vrsta selitve", "stevilo"), na=c(" "))
+selitve <- read_csv2(file = 'podatki/tabela_selitve.csv', skip=2,
+                     col_names = c("regija", "leto", "vrsta selitve", "stevilo"), locale=loc)
 
 selitve <- selitve %>% fill(regija, leto) %>% filter(stevilo!=" ")
 
 
 #tabela 5:
-starostne_skupine <- read_csv2(file = 'podatki/starostne_skupine.csv', col_names = c("regija", "leto", "starostna skupina", "stevilo"),
-                                      skip=3, locale=locale(encoding="UTF-8"))
+starostne_skupine <- read_csv2(file = 'podatki/starostne_skupine.csv', skip=3,
+                               col_names = c("regija", "leto", "starostna skupina", "stevilo"), locale = loc)
 
 starostne_skupine <- starostne_skupine %>% fill(regija, leto) %>% filter(stevilo!=" ")
 
 #tabela 6:
-povrsine <- read_csv2(file = 'podatki/povrsine_regije.csv', col_names = TRUE, locale=locale(encoding="UTF-8"))
+povrsine <- read_csv2(file = 'podatki/povrsine_regije.csv', locale=loc)
 
 #shranjene tabele v tidy data:
 write.csv(gibanje_celotnega_prebivalstva, file = 'podatki/tidy_data/TIDY_gibanje_celotnega_prebivalstva.csv')
