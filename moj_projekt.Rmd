@@ -67,6 +67,7 @@ Uvozil sem podatke o prebuvalstvu v Slovenskih statističnih regijah v obliki CS
   - `starostna_skupina` - meritev: starostna skupina,
   - `stevilo` - meritev: število ljudi, ki pripadajo določeni starostni skupini.
 
+Viri: [SURS](https://pxweb.stat.si/pxweb/Database/Dem_soc/Dem_soc.asp), [Wikipedija](https://sl.wikipedia.org/wiki/Statistične_regije_Slovenije)
 
 **Opomba**: podatke o gostoti poselitve in naprimer število rojenih na 1000 prebivalcev sem tekom analize poračuna iz ostalih podatkov.
 
