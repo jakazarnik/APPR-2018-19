@@ -28,7 +28,7 @@ source("lib/rstudio.r")
 ## Obdelava, uvoz in čiščenje podatkov
 
 ```{r uvoz, echo=FALSE, message=FALSE, warning=FALSE}
-source("uvoz/moj_uvoz.r")
+source("uvoz/moj_uvoz.R")
 ```
 
 Uvozil sem podatke o prebuvalstvu v Slovenskih statističnih regijah v obliki CSV s statističnega urada republike Slovenije. Podatke imam v šestih razpredelnicah v obliki *tidy data*.
@@ -84,7 +84,7 @@ ggplot(gibanje_celotnega_prebivalstva, aes(x=leto, y=prebivalstvo_1_januar)) +
 ## Analiza in vizualizacija podatkov
 
 ```{r vizualizacija, echo=FALSE, message=FALSE, warning=FALSE, results='hide'}
-source("vizualizacija/vizualizacija_moja.r")
+source("vizualizacija/vizualizacija_moja.R")
 ```
 
 Spodnji zemljevid gostoto prebivalstva vsake statistične regije.

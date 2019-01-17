@@ -4,7 +4,7 @@
 
 Repozitorij z gradivi pri predmetu APPR v študijskem letu 2018/19
 
-* [![Shiny](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/jakazarnik/APPR-2018-19/master?urlpath=shiny/APPR-2018-19/projekt.Rmd) Shiny
+* [![Shiny](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/jakazarnik/APPR-2018-19/master?urlpath=shiny/APPR-2018-19/moj_projekt.Rmd) Shiny
 * [![RStudio](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/jakazarnik/APPR-2018-19/master?urlpath=rstudio) RStudio
 
 ## Analiza gibanja prebivalstva v Sloveniji
