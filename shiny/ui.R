@@ -1,5 +1,4 @@
 library(shiny)
-library(DT)
 
 shinyUI(fluidPage(
   
@@ -9,8 +8,8 @@ shinyUI(fluidPage(
     tabPanel("Statististicna regija",
              sidebarPanel(
                selectInput("regija", "Izberi regijo",
-                           c("1","2"))
-               )
-               )
-)))
+                           sort(unique(starostne_skupine$regija)))
+               ),
+             mainPanel(plotOutput("gostota"))
+))))
 

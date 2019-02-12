@@ -99,9 +99,9 @@ Spodnji zemljevid gostoto prebivalstva vsake statistične regije.
 
 <!-- ## Napredna analiza podatkov -->
 
-<!-- # ```{r analiza, echo=FALSE, message=FALSE} -->
-<!-- # source("analiza/analiza.r") -->
-<!-- # ``` -->
+```{r analiza, echo=FALSE, message=FALSE}
+source("analiza/analiza.r")
+```
 <!-- #  -->
 <!-- # Spodnji graf prikazuje povezavo med številom naselij in površino občine. -->
 <!-- #  -->

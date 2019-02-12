@@ -1,11 +1,12 @@
-# 4. faza: Analiza podatkov
+library(dplyr)
 
-podatki <- obcine %>% transmute(obcina, povrsina, gostota,
-                                gostota.naselij=naselja/povrsina) %>%
-  left_join(povprecja, by="obcina")
-row.names(podatki) <- podatki$obcina
-podatki$obcina <- NULL
+tabela_prebivalstva <- starostne_skupine %>% group_by(regija, leto) %>% summarise(stevilo=sum(stevilo))
 
-# Število skupin
-n <- 5
-skupine <- hclust(dist(scale(podatki))) %>% cutree(n)
+tabela_gostota <- tabela_prebivalstva %>%
+  inner_join(povrsine) %>% mutate(gostota=round(stevilo/povrsina_km2, 2))
+
+gostota_graf <- function(ime) {
+  ggplot(tabela_gostota %>% filter(regija==ime), aes(x=leto, y=gostota)) + 
+    geom_line() +
+    ggtitle("") + xlab("Leto") + ylab("Število prebivalcev")
+}

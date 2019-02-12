@@ -1,5 +1,4 @@
 
-
 loc <- locale(encoding = "Windows-1250", decimal_mark = ".")
 
 #tabela 1:
@@ -38,7 +37,7 @@ starostne_skupine <- read_csv2(file = 'podatki/starostne_skupine.csv', skip=3,
 starostne_skupine <- starostne_skupine %>% fill(regija, leto) %>% filter(stevilo!=" ")
 
 #tabela 6:
-povrsine <- read_csv2(file = 'podatki/povrsine_regije.csv', locale=loc)
+povrsine <- read_csv2(file = 'podatki/povrsine_regije.csv', locale=loc) %>% mutate(povrsina_km2=as.numeric(povrsina_km2))
 
 #shranjene tabele v tidy data:
 write.csv(gibanje_celotnega_prebivalstva, file = 'podatki/tidy_data/TIDY_gibanje_celotnega_prebivalstva.csv')
