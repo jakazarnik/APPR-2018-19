@@ -1,6 +1,4 @@
-library(readr)
-library(dplyr)
-library(tidyr)
+
 
 loc <- locale(encoding = "Windows-1250", decimal_mark = ".")
 
@@ -8,7 +6,8 @@ loc <- locale(encoding = "Windows-1250", decimal_mark = ".")
 gibanje_celotnega_prebivalstva <- read_csv2(file = 'podatki/T1_preb_zivorojeni_umrli_nar.prirast.csv',
                                                    col_names=TRUE, skip=2, locale=loc)
 
-gibanje_celotnega_prebivalstva <- gibanje_celotnega_prebivalstva[, c(1:4)]
+gibanje_celotnega_prebivalstva <- gibanje_celotnega_prebivalstva[, c(1:4)] %>% 
+  mutate(prebivalstvo_1_januar=round(prebivalstvo_1_januar/1000, 1))
 
 
 #tabela 2:

@@ -7,6 +7,7 @@ output:
     includes:
       in_header: lib/styles.sty
     latex_engine: xelatex
+runtime: shiny
 # runtime: shiny
 ---
 
@@ -71,21 +72,19 @@ Viri: [SURS](https://pxweb.stat.si/pxweb/Database/Dem_soc/Dem_soc.asp), [Wikiped
 
 **Opomba**: podatke o gostoti poselitve in naprimer število rojenih na 1000 prebivalcev sem tekom analize poračuna iz ostalih podatkov.
 
-Spodnji graf prikazuje gibanje prebivalstva republike Slovenije od leta 1922 naprej.
-
-```{r histogram, echo=FALSE, message=FALSE, fig.align='center', fig.cap='Graf števila prebivalcev RS'}
-ggplot(gibanje_celotnega_prebivalstva, aes(x=leto, y=prebivalstvo_1_januar)) + 
-  geom_line() +
-  ggtitle("Število prebivalcev Slovenije") + xlab("Leto") + ylab("Število prebivalcev")
-```
-
-***
-
-## Analiza in vizualizacija podatkov
+Spodnji graf prikazuje gibanje prebivalstva republike Slovenije od leta 1922 naprej v tisočih.
 
 ```{r vizualizacija, echo=FALSE, message=FALSE, warning=FALSE, results='hide'}
 source("vizualizacija/vizualizacija_moja.R")
 ```
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+gibanje_prebivalstva_dygraph()
+```
+***
+
+## Analiza in vizualizacija podatkov
+
+
 
 Spodnji zemljevid gostoto prebivalstva vsake statistične regije.
 
@@ -118,6 +117,6 @@ Spodnji zemljevid gostoto prebivalstva vsake statistične regije.
 
 <!-- *** -->
 
-<!-- # ```{r shiny, echo=FALSE} -->
-<!-- # shinyAppDir("shiny", options=list(width="100%", height=600)) -->
-<!-- # ``` -->
+```{r shiny, echo=FALSE}
+shinyAppDir("shiny", options=list(width="100%", height=600))
+```

@@ -18,6 +18,21 @@ ggplot(Slovenija, aes(x=long, y=lat, group=group, fill=NAME_1)) +
 
 #GRAFI
 
+# basic_gibanje <- ggplot(gibanje_celotnega_prebivalstva, aes(x=leto, y=prebivalstvo_1_januar)) + 
+#   geom_line() +
+#   ggtitle("Število prebivalcev Slovenije") + xlab("Leto") + ylab("Število prebivalcev")
+
+gibanje_prebivalstva_dygraph <- function() {
+  don<-xts(x = gibanje_celotnega_prebivalstva$prebivalstvo_1_januar, order.by=as.yearqtr.default(gibanje_celotnega_prebivalstva$leto))
+  dygraph(don, main = "Gibanje prebivalstva Slovenije", ylab = "prebivalstvo v tisočih") %>%
+    dyOptions(labelsUTC = TRUE, fillGraph=TRUE, fillAlpha=0.1, drawGrid = FALSE, colors="#D8AE5A") %>%
+    dyRangeSelector() %>%
+    dyEvent("1995-1-1", "", labelLoc = "bottom") %>%
+    dyCrosshair(direction = "vertical") %>%
+    dyHighlight(highlightCircleSize = 5, highlightSeriesBackgroundAlpha = 0.2, hideOnMouseOut = FALSE)  %>%
+    dyRoller(rollPeriod = 1) %>%
+    dySeries("V1", label = "Število prebivalstva")
+}
 # gibanje_prebivalstva <- ggplot(data = gibanje_celotnega_prebivalstva, mapping = aes(x=leto, y=prebivalstvo_1_januar)) + geom_line()
 # plot(gibanje_prebivalstva)
 #                     
