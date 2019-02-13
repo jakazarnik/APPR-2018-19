@@ -1,5 +1,5 @@
 ---
-title: "Poročilo pri predmetu Analiza podatkov s programom R"
+title: "Gibanje prebivalstva Slovenije"
 author: "Jakob Zarnik"
 output:
   html_document: default
@@ -72,6 +72,10 @@ Viri: [SURS](https://pxweb.stat.si/pxweb/Database/Dem_soc/Dem_soc.asp), [Wikiped
 
 **Opomba**: podatke o gostoti poselitve in naprimer število rojenih na 1000 prebivalcev sem tekom analize poračuna iz ostalih podatkov.
 
+***
+
+## Analiza in vizualizacija podatkov
+
 Spodnji graf prikazuje gibanje prebivalstva republike Slovenije od leta 1922 naprej v tisočih.
 
 ```{r vizualizacija, echo=FALSE, message=FALSE, warning=FALSE, results='hide'}
@@ -80,11 +84,10 @@ source("vizualizacija/vizualizacija_moja.R")
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 gibanje_prebivalstva_dygraph()
 ```
-***
 
-## Analiza in vizualizacija podatkov
-
-
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+rojstva_smrti
+```
 
 Spodnji zemljevid gostoto prebivalstva vsake statistične regije.
 

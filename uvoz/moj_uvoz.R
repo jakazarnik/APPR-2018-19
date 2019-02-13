@@ -1,9 +1,10 @@
 
 loc <- locale(encoding = "Windows-1250", decimal_mark = ".")
+loc2 <- locale(encoding = "UTF-8", decimal_mark = ".")
 
 #tabela 1:
 gibanje_celotnega_prebivalstva <- read_csv2(file = 'podatki/T1_preb_zivorojeni_umrli_nar.prirast.csv',
-                                                   col_names=TRUE, skip=2, locale=loc)
+                                                   col_names=TRUE, skip=2, locale=loc2)
 
 gibanje_celotnega_prebivalstva <- gibanje_celotnega_prebivalstva[, c(1:4)] %>% 
   mutate(prebivalstvo_1_januar=round(prebivalstvo_1_januar/1000, 1))
@@ -32,17 +33,32 @@ selitve <- selitve %>% fill(regija, leto) %>% filter(stevilo!=" ")
 
 #tabela 5:
 starostne_skupine <- read_csv2(file = 'podatki/starostne_skupine.csv', skip=3,
-                               col_names = c("regija", "leto", "starostna skupina", "stevilo"), locale = loc)
+                               col_names = c("regija", "leto", "starostna skupina", "stevilo"), locale = loc2)
 
 starostne_skupine <- starostne_skupine %>% fill(regija, leto) %>% filter(stevilo!=" ")
 
 #tabela 6:
-povrsine <- read_csv2(file = 'podatki/povrsine_regije.csv', locale=loc) %>% mutate(povrsina_km2=as.numeric(povrsina_km2))
+povrsine <- read_csv2(file = 'podatki/povrsine_regije.csv', locale=loc2) %>% mutate(povrsina_km2=as.numeric(povrsina_km2))
 
-#shranjene tabele v tidy data:
-write.csv(gibanje_celotnega_prebivalstva, file = 'podatki/tidy_data/TIDY_gibanje_celotnega_prebivalstva.csv')
-write.csv(zivorojeni, file = 'podatki/tidy_data/TIDY_zivorojeni.csv')
-write.csv(umrli, file = 'podatki/tidy_data/TIDY_umrli.csv')
-write.csv(selitve, file = 'podatki/tidy_data/TIDY_selitve.csv')
-write.csv(starostne_skupine, file = 'podatki/tidy_data/TIDY_starostne_skupine.csv')
-write.csv(povrsine, file = 'podatki/tidy_data/TIDY_povrsine.csv')
+
+#GOSTOTA
+tabela_prebivalstva <- starostne_skupine %>% group_by(regija, leto) %>% summarise(stevilo=sum(stevilo))
+
+tabela_gostota <- tabela_prebivalstva %>%
+  inner_join(povrsine) %>% mutate(gostota=round(stevilo/povrsina_km2, 2))
+
+#rojeni umrli prisljeni
+tabela_umrli <- umrli %>% group_by(regija, spol) %>% summarise(stevilo=sum(stevilo))
+tabela_umrli[tabela_umrli=='Umrli - ženske'] <-'zenska'
+tabela_umrli[tabela_umrli=='Umrli - moški'] <-'moski'
+tabela_umrli$stanje <- 'umrli'
+tabela_umrli <- tabela_umrli[c(1,4,2,3)]
+
+tabela_rojeni <- zivorojeni %>% group_by(regija, spol) %>% summarise(stevilo=sum(stevilo))
+tabela_rojeni[tabela_rojeni=='Živorojeni - ženske'] <-'zenska'
+tabela_rojeni[tabela_rojeni=='Živorojeni - moški'] <-'moski'
+tabela_rojeni$stanje <- 'rojeni'
+tabela_rojeni <- tabela_rojeni[c(1,4,2,3)]
+
+
+tabela_rojeni_umrli <- full_join(tabela_umrli, tabela_rojeni)

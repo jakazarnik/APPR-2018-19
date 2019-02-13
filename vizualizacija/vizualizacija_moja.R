@@ -33,6 +33,10 @@ gibanje_prebivalstva_dygraph <- function() {
     dyRoller(rollPeriod = 1) %>%
     dySeries("V1", label = "Število prebivalstva")
 }
+
+rojstva_smrti <- ggplot(tabela_rojeni_umrli, aes(x=stanje, y=stevilo, fill=spol)) + 
+  geom_bar(stat="identity") + facet_grid(~regija) +ggtitle("Rojstva in smrti") + xlab("")
+
 # gibanje_prebivalstva <- ggplot(data = gibanje_celotnega_prebivalstva, mapping = aes(x=leto, y=prebivalstvo_1_januar)) + geom_line()
 # plot(gibanje_prebivalstva)
 #                     
