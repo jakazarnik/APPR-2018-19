@@ -14,7 +14,7 @@ ggplot(Slovenija, aes(x=long, y=lat, group=group, fill=NAME_1)) +
                               by=c("NAME_1"="regija")), 
                aes(x=long, y=lat, group=group, 
                    fill=priseljeni)) + xlab("") + ylab("") +
-  labs(title="Slovenija - priseljeni v regijo na 1000 prebivalcev") +
+  ggtitle("Slovenija - priseljeni v regijo na 1000 prebivalcev") +
   theme(legend.position="none") 
 
 
