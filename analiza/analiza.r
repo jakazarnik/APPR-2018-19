@@ -8,7 +8,7 @@ gostota_graf1 <- function(ime) {
 
 gostota_graf2 <- function(cifra) {
   ggplot(tabela_gostota %>% filter(leto==cifra), aes(x=regija, y=gostota)) + 
-    geom_bar(stat = "identity", fill = "springgreen3") +
+    ylim(0, 250) + geom_bar(stat = "identity", fill = "springgreen3") +
     ggtitle("") + xlab("") + ylab("prebivlacev/km2")
 }
 
