@@ -1,6 +1,7 @@
 
 loc <- locale(encoding = "Windows-1250", decimal_mark = ".")
 loc2 <- locale(encoding = "UTF-8", decimal_mark = ".")
+loc3 <- locale(encoding = "ISO-8859-1", decimal_mark = ".")
 
 #tabela 1:
 gibanje_celotnega_prebivalstva <- read_csv2(file = 'podatki/T1_preb_zivorojeni_umrli_nar.prirast.csv',
@@ -9,17 +10,19 @@ gibanje_celotnega_prebivalstva <- read_csv2(file = 'podatki/T1_preb_zivorojeni_u
 gibanje_celotnega_prebivalstva <- gibanje_celotnega_prebivalstva[, c(1:4)] %>% 
   mutate(prebivalstvo_1_januar=round(prebivalstvo_1_januar/1000, 1))
 
+#tabela povrsine:
+povrsine <- read_csv2(file = 'podatki/povrsine_regije.csv', locale=loc2) %>% mutate(povrsina_km2=as.numeric(povrsina_km2))
 
 #tabela 2:
 zivorojeni <- read_csv2(file = 'podatki/rojstva_regije.csv', skip=2,
-                        col_names = c("regija", "leto", "spol", "stevilo"), locale=loc)
+                        col_names = c("regija", "leto", "spol", "stevilo"), locale=loc3)
 
 zivorojeni <- zivorojeni %>% fill(regija, leto) %>% filter(stevilo!=" ")
 
 
 #tabela 3:
 umrli <- read_csv2(file = 'podatki/smrti_regije.csv', skip=2,
-                   col_names = c("regija", "leto", "spol", "stevilo"), locale=loc)
+                   col_names = c("regija", "leto", "spol", "stevilo"), locale=loc3)
 
 umrli <- umrli %>% fill(regija, leto) %>% filter(stevilo!=" ")
 
@@ -42,9 +45,6 @@ starostne_skupine <- starostne_skupine %>% fill(regija, leto) %>% filter(stevilo
 
 tabela_starost_danes <- starostne_skupine %>% filter(leto=='2017')
 
-#tabela 6:
-povrsine <- read_csv2(file = 'podatki/povrsine_regije.csv', locale=loc2) %>% mutate(povrsina_km2=as.numeric(povrsina_km2))
-
 
 #GOSTOTA
 tabela_prebivalstva <- starostne_skupine %>% group_by(regija, leto) %>% summarise(stevilo=sum(stevilo))
@@ -54,7 +54,7 @@ tabela_gostota <- tabela_prebivalstva %>%
 
 #rojeni umrli prisljeni
 tabela_umrli <- umrli %>% group_by(regija, spol) %>% summarise(stevilo=sum(stevilo))
-tabela_umrli[tabela_umrli=='Umrli - ženske'] <-'zenska'
+tabela_umrli[tabela_umrli=="Umrli - ženske"] <-'zenska'
 tabela_umrli[tabela_umrli=='Umrli - moški'] <-'moski'
 tabela_umrli$stanje <- 'umrli'
 tabela_umrli <- tabela_umrli[c(1,4,2,3)]

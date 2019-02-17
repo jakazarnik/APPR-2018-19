@@ -7,7 +7,7 @@ source('lib/uvozi.zemljevid.r')
 #Graf: Zemljevid
 
 Slovenija <- uvozi.zemljevid("http://biogeo.ucdavis.edu/data/gadm2.8/shp/SVN_adm_shp.zip",
-                             "SVN_adm1") %>% fortify()
+                             "SVN_adm1", encoding = "UTF-8") %>% fortify()
 
 selitve <- ggplot(Slovenija, aes(x=long, y=lat, group=group, fill=NAME_1)) +
   geom_polygon(data=left_join(Slovenija, tabela_selitve,

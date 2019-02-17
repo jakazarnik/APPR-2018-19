@@ -3,7 +3,7 @@ library(dplyr)
 gostota_graf1 <- function(ime) {
   ggplot(tabela_gostota %>% filter(regija==ime), aes(x=leto, y=gostota)) + 
     geom_line() +
-    ggtitle("") + xlab("Leto") + ylab("Število prebivalcev")
+    ggtitle("") + xlab("Leto") + ylab('Število prebivalcev')
 }
 
 gostota_graf2 <- function(cifra) {
