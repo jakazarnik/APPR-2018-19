@@ -9,11 +9,13 @@ source('lib/uvozi.zemljevid.r')
 Slovenija <- uvozi.zemljevid("http://biogeo.ucdavis.edu/data/gadm2.8/shp/SVN_adm_shp.zip",
                              "SVN_adm1") %>% fortify()
 
-
 ggplot(Slovenija, aes(x=long, y=lat, group=group, fill=NAME_1)) +
-  geom_polygon() +
-  labs(title="Slovenija - brez podatkov") +
-  theme(legend.position="none")
+  geom_polygon(data=left_join(Slovenija, tabela_selitve, 
+                              by=c("NAME_1"="regija")), 
+               aes(x=long, y=lat, group=group, 
+                   fill=priseljeni)) + xlab("") + ylab("") +
+  labs(title="Slovenija - priseljeni v regijo na 1000 prebivalcev") +
+  theme(legend.position="none") 
 
 
 #GRAFI

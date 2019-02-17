@@ -30,12 +30,17 @@ selitve <- read_csv2(file = 'podatki/tabela_selitve.csv', skip=2,
 
 selitve <- selitve %>% fill(regija, leto) %>% filter(stevilo!=" ")
 
+tabela_selitve <- selitve %>% group_by(regija) %>% summarise(stevilo=sum(stevilo)) %>%
+  inner_join(povrsine) %>% mutate(priseljeni=round(stevilo/povrsina_km2, 2))
+
 
 #tabela 5:
 starostne_skupine <- read_csv2(file = 'podatki/starostne_skupine.csv', skip=3,
                                col_names = c("regija", "leto", "starostna skupina", "stevilo"), locale = loc2)
 
 starostne_skupine <- starostne_skupine %>% fill(regija, leto) %>% filter(stevilo!=" ")
+
+tabela_starost_danes <- starostne_skupine %>% filter(leto=='2017')
 
 #tabela 6:
 povrsine <- read_csv2(file = 'podatki/povrsine_regije.csv', locale=loc2) %>% mutate(povrsina_km2=as.numeric(povrsina_km2))
