@@ -67,4 +67,5 @@ tabela_rojeni <- tabela_rojeni[c(1,4,2,3)]
 
 
 tabela_rojeni_umrli <- full_join(tabela_umrli, tabela_rojeni)
-
+tabela_rojeni_umrli <- tabela_rojeni_umrli[!tabela_rojeni_umrli$regija == "SLOVENIJA", ]
+#dtfm[!dtfm$C == "Foo", ]

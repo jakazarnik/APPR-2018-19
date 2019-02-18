@@ -2,7 +2,7 @@ library(shiny)
 
 shinyUI(fluidPage(
   
-  titlePanel("Gostota prebivalcev statističnih regij"),
+  titlePanel(""),
   
   tabsetPanel(
     tabPanel("Statististična regija",

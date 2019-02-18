@@ -74,7 +74,11 @@ Viri: [SURS](https://pxweb.stat.si/pxweb/Database/Dem_soc/Dem_soc.asp), [Wikiped
 
 ***
 
-## Analiza in vizualizacija podatkov
+# Analiza in vizualizacija podatkov
+
+***
+
+### Prebivalstvo celotne Slovenije
 
 Spodnji graf prikazuje gibanje prebivalstva republike Slovenije od leta 1922 naprej v tisočih.
 
@@ -85,20 +89,43 @@ source("vizualizacija/vizualizacija_moja.R")
 gibanje_prebivalstva_dygraph()
 ```
 
+***
+
+### Rojstva in Smrti
+
+Večjih odstopanj med številom rojenih in umrlih ni. Zato zaradi naravnega prirastka prebivalstvo ni moglo niti močno narasti niti upasti.
+
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 rojstva_smrti
 ```
 
-Spodnji zemljevid gostoto prebivalstva vsake statistične regije.
-```{r Slovenija, echo=FALSE, fig.align='center', fig.cap='Zemljevid 1: stevilo priseljenih na 1000 prebivalcev'}
+***
+
+### Selitve
+
+Polgejmo si še število priseljenih po regijah.
+
+Očitno je, da je Osrednjeslovenska regija del, kamor se je priselelilo največ ljudi. Razlogov je veliko, pomembnejši izmed njih pa so veliko delovnih mest, saj je to bolj razvit del države, možnost šolanja, bljižina glavnega mesta ipd.
+Sledi ji Obalno-kraška, katere del je vsa slovenska obala in je v naposrednji bljižini tako Italije kot Hrvaške.
+Najmanj priselejevanja oziroma odselejvanje lahko opazimo na Koroškem in Pomurskem, ki sta najbolj odmaknjena dela Slovenije od njenega središča. Razlogi so predvsem slabša razvitost, kriza je ta dva dela bolj prizadela, in pomanjkanje delovnih mest.
+```{r Slovenija, echo=FALSE, fig.align='center', fig.cap='Zemljevid 1: število priseljenih na 1000 prebivalcev'}
 selitve
 ```
 
 ***
+### Gostota poseljenosti
 
-<!-- ## Napredna analiza podatkov -->
+Poselejnost Slovenije je neenakomerna, najbol poseljeni sta Osrednjeslovenska in Podravska regija, kjer sta tudi največji mesti Ljubljana in Maribor.
+Gostota se s časom povsod spreminja, večinoma rahlo narašča, le v regijah kjer smo že prej lahko opazili trend odselejevanja, gostota upade.
 
 ```{r analiza, echo=FALSE, message=FALSE}
 source("analiza/analiza.r")
 ```
 
+```{r shiny, echo=FALSE}
+shinyAppDir("shiny", options=list(width="100%", height=600))
+```
+
+# Zaključek
+
+Iz podatkov lahko jasno razberemo, da se je rest prebivalstva v Sloveniji upočasnila. Razlike med regijami so precejšnje, še posebej v primerjavi z Osrednjeslovesko, kjer je klub upadu rojstev prebivalstvo še vedno občutno naraslo zaradi večje količine priseljenih. Verjetno tudi iz ostalih regij, kot naprimer iz Koroške in Pomurske.

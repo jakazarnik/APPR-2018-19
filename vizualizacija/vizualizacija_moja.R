@@ -9,13 +9,16 @@ source('lib/uvozi.zemljevid.r')
 Slovenija <- uvozi.zemljevid("http://biogeo.ucdavis.edu/data/gadm2.8/shp/SVN_adm_shp.zip",
                              "SVN_adm1", encoding = "UTF-8") %>% fortify()
 
+Slovenija=Slovenija %>%  mutate(NAME_1 = replace(NAME_1 %>% as.character,NAME_1=="Spodnjeposavska","Posavska")) %>% 
+  mutate(NAME_1 = replace(NAME_1,NAME_1=="Notranjsko-kra\U00161ka","Primorsko-notranjska") %>% as.factor)
+
 selitve <- ggplot(Slovenija, aes(x=long, y=lat, group=group, fill=NAME_1)) +
   geom_polygon(data=left_join(Slovenija, tabela_selitve,
                               by=c("NAME_1"="regija")),
                aes(x=long, y=lat, group=group,
                    fill=priseljeni)) + xlab("") + ylab("") +
   ggtitle("Slovenija - priseljeni v regijo na 1000 prebivalcev") +
-  theme(legend.position="none")
+  guides(fill=guide_colorbar(title=""))
 
 
 #GRAFI
@@ -37,7 +40,9 @@ gibanje_prebivalstva_dygraph <- function() {
 }
 
 rojstva_smrti <- ggplot(tabela_rojeni_umrli, aes(x=stanje, y=stevilo, fill=spol)) + 
-  geom_bar(stat="identity") + facet_grid(~regija) +ggtitle("Rojstva in smrti") + xlab("")
+  geom_bar(stat="identity") + facet_grid(~regija) +ggtitle("Rojstva in smrti") + xlab("") + ylab("število") +
+  guides(fill=FALSE) + theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
 
 # gibanje_prebivalstva <- ggplot(data = gibanje_celotnega_prebivalstva, mapping = aes(x=leto, y=prebivalstvo_1_januar)) + geom_line()
 # plot(gibanje_prebivalstva)
