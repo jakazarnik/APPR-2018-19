@@ -15,14 +15,14 @@ povrsine <- read_csv2(file = 'podatki/povrsine_regije.csv', locale=loc2) %>% mut
 
 #tabela 2:
 zivorojeni <- read_csv2(file = 'podatki/rojstva_regije.csv', skip=2,
-                        col_names = c("regija", "leto", "spol", "stevilo"), locale=loc3)
+                        col_names = c("regija", "leto", "spol", "stevilo"), locale=loc)
 
 zivorojeni <- zivorojeni %>% fill(regija, leto) %>% filter(stevilo!=" ")
 
 
 #tabela 3:
 umrli <- read_csv2(file = 'podatki/smrti_regije.csv', skip=2,
-                   col_names = c("regija", "leto", "spol", "stevilo"), locale=loc3)
+                   col_names = c("regija", "leto", "spol", "stevilo"), locale=loc)
 
 umrli <- umrli %>% fill(regija, leto) %>% filter(stevilo!=" ")
 

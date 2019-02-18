@@ -40,8 +40,9 @@ gibanje_prebivalstva_dygraph <- function() {
 }
 
 rojstva_smrti <- ggplot(tabela_rojeni_umrli, aes(x=stanje, y=stevilo, fill=spol)) + 
-  geom_bar(stat="identity") + facet_grid(~regija) +ggtitle("Rojstva in smrti") + xlab("") + ylab("število") +
-  guides(fill=FALSE) + theme(axis.text.x = element_text(angle = 90, hjust = 1))
+  geom_bar(stat="identity") + facet_grid(~regija) +ggtitle("Rojstva in smrti") + 
+  xlab("") + ylab("število") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
 
 
 # gibanje_prebivalstva <- ggplot(data = gibanje_celotnega_prebivalstva, mapping = aes(x=leto, y=prebivalstvo_1_januar)) + geom_line()
