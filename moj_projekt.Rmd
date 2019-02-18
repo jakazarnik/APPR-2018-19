@@ -26,6 +26,11 @@ source("lib/rstudio.r")
 ```
 
 
+
+
+![](slike/prebivastvo.jpg)
+
+
 ## Obdelava, uvoz in čiščenje podatkov
 
 ```{r uvoz, echo=FALSE, message=FALSE, warning=FALSE}
@@ -74,11 +79,14 @@ Viri: [SURS](https://pxweb.stat.si/pxweb/Database/Dem_soc/Dem_soc.asp), [Wikiped
 
 ***
 
+
 # Analiza in vizualizacija podatkov
 
 ***
 
+
 ### Prebivalstvo celotne Slovenije
+
 
 Spodnji graf prikazuje gibanje prebivalstva republike Slovenije od leta 1922 naprej v tisočih.
 
@@ -93,6 +101,7 @@ gibanje_prebivalstva_dygraph()
 
 ### Rojstva in Smrti
 
+
 Večjih odstopanj med številom rojenih in umrlih ni. Zato zaradi naravnega prirastka prebivalstvo ni moglo niti močno narasti niti upasti.
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
@@ -102,6 +111,7 @@ rojstva_smrti
 ***
 
 ### Selitve
+
 
 Polgejmo si še število priseljenih po regijah.
 
@@ -115,6 +125,7 @@ selitve
 ***
 ### Gostota poseljenosti
 
+
 Poselejnost Slovenije je neenakomerna, najbol poseljeni sta Osrednjeslovenska in Podravska regija, kjer sta tudi največji mesti Ljubljana in Maribor.
 Gostota se s časom povsod spreminja, večinoma rahlo narašča, le v regijah kjer smo že prej lahko opazili trend odselejevanja, gostota upade.
 
@@ -127,5 +138,6 @@ shinyAppDir("shiny", options=list(width="100%", height=600))
 ```
 
 # Zaključek
+
 
 Iz podatkov lahko jasno razberemo, da se je rest prebivalstva v Sloveniji upočasnila. Razlike med regijami so precejšnje, še posebej v primerjavi z Osrednjeslovesko, kjer je klub upadu rojstev prebivalstvo še vedno občutno naraslo zaradi večje količine priseljenih. Verjetno tudi iz ostalih regij, kot naprimer iz Koroške in Pomurske.
