@@ -5,7 +5,7 @@ shinyUI(fluidPage(
   titlePanel(""),
   
   tabsetPanel(
-    tabPanel("Statististična regija",
+    tabPanel("Statististi??na regija",
              sidebarPanel(
                selectInput("regija", "Izberi regijo",
                            sort(unique(starostne_skupine$regija)))
@@ -22,3 +22,16 @@ shinyUI(fluidPage(
     )
   ))
 
+# shinyUI(fluidPage(
+#   
+#   titlePanel(""),
+#   
+#   tabsetPanel(
+#     tabPanel("Statististi??na regija",
+#              sidebarPanel(
+#                selectInput("regija", "Izberi regijo",
+#                            sort(unique(tabela_mladi$regija)))
+#              ),
+#              mainPanel(plotOutput("")))
+#   )
+# ))

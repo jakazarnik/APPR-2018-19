@@ -43,7 +43,7 @@ starostne_skupine <- read_csv2(file = 'podatki/starostne_skupine.csv', skip=3,
 
 starostne_skupine <- starostne_skupine %>% fill(regija, leto) %>% filter(stevilo!=" ")
 
-tabela_starost_danes <- starostne_skupine %>% filter(leto=='2017')
+tabela_mladi <- starostne_skupine %>% filter(`starostna skupina`=='0-14 let')
 
 
 #GOSTOTA
@@ -54,14 +54,14 @@ tabela_gostota <- tabela_prebivalstva %>%
 
 #rojeni umrli prisljeni
 tabela_umrli <- umrli %>% group_by(regija, spol) %>% summarise(stevilo=sum(stevilo))
-tabela_umrli[tabela_umrli=="Umrli - ženske"] <-'zenska'
-tabela_umrli[tabela_umrli=='Umrli - moški'] <-'moski'
+tabela_umrli[tabela_umrli=="Umrli - ??enske"] <-'zenska'
+tabela_umrli[tabela_umrli=='Umrli - mo??ki'] <-'moski'
 tabela_umrli$stanje <- 'umrli'
 tabela_umrli <- tabela_umrli[c(1,4,2,3)]
 
 tabela_rojeni <- zivorojeni %>% group_by(regija, spol) %>% summarise(stevilo=sum(stevilo))
-tabela_rojeni[tabela_rojeni=='Živorojeni - ženske'] <-'zenska'
-tabela_rojeni[tabela_rojeni=='Živorojeni - moški'] <-'moski'
+tabela_rojeni[tabela_rojeni=='??ivorojeni - ??enske'] <-'zenska'
+tabela_rojeni[tabela_rojeni=='??ivorojeni - mo??ki'] <-'moski'
 tabela_rojeni$stanje <- 'rojeni'
 tabela_rojeni <- tabela_rojeni[c(1,4,2,3)]
 
