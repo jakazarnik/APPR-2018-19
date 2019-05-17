@@ -5,7 +5,7 @@ shinyUI(fluidPage(
   titlePanel(""),
   
   tabsetPanel(
-    tabPanel("Statististi??na regija",
+    tabPanel("Statististična regija",
              sidebarPanel(
                selectInput("regija", "Izberi regijo",
                            sort(unique(starostne_skupine$regija)))

@@ -54,14 +54,14 @@ tabela_gostota <- tabela_prebivalstva %>%
 
 #rojeni umrli prisljeni
 tabela_umrli <- umrli %>% group_by(regija, spol) %>% summarise(stevilo=sum(stevilo))
-tabela_umrli[tabela_umrli=="Umrli - ??enske"] <-'zenska'
-tabela_umrli[tabela_umrli=='Umrli - mo??ki'] <-'moski'
+tabela_umrli[tabela_umrli=="Umrli - ženske"] <-'zenska'
+tabela_umrli[tabela_umrli=='Umrli - moški'] <-'moski'
 tabela_umrli$stanje <- 'umrli'
 tabela_umrli <- tabela_umrli[c(1,4,2,3)]
 
 tabela_rojeni <- zivorojeni %>% group_by(regija, spol) %>% summarise(stevilo=sum(stevilo))
-tabela_rojeni[tabela_rojeni=='??ivorojeni - ??enske'] <-'zenska'
-tabela_rojeni[tabela_rojeni=='??ivorojeni - mo??ki'] <-'moski'
+tabela_rojeni[tabela_rojeni=='živorojeni - ženske'] <-'zenska'
+tabela_rojeni[tabela_rojeni=='živorojeni - moški'] <-'moski'
 tabela_rojeni$stanje <- 'rojeni'
 tabela_rojeni <- tabela_rojeni[c(1,4,2,3)]
 

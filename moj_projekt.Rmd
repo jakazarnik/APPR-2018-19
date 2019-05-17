@@ -137,6 +137,7 @@ source("analiza/analiza.r")
 shinyAppDir("shiny", options=list(width="100%", height=600))
 ```
 
+
 # Zaključek
 
 
