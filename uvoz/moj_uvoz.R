@@ -43,7 +43,7 @@ starostne_skupine <- read_csv2(file = 'podatki/starostne_skupine.csv', skip=3,
 
 starostne_skupine <- starostne_skupine %>% fill(regija, leto) %>% filter(stevilo!=" ")
 
-tabela_mladi <- starostne_skupine %>% filter(`starostna skupina`=='0-14 let')
+tabela_mladi <- starostne_skupine %>% filter(`starostna skupina`=='0-14 let') %>% filter(`regija`=='Osrednjeslovenska')
 
 
 #GOSTOTA
