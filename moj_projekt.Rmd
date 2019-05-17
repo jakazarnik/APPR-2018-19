@@ -17,12 +17,12 @@ runtime: shiny
 #source("fontconfig.r")
 
 # Uvoz vseh potrebnih knjižnic
-source("lib/libraries.r")
+source("lib/libraries.r", encoding="UTF-8")
 ```
 
 ```{r rstudio, echo=FALSE, results='asis', warning=FALSE}
 # Izris povezave do RStudia na Binderju
-source("lib/rstudio.r")
+source("lib/rstudio.r", encoding="UTF-8")
 ```
 
 
@@ -34,7 +34,7 @@ source("lib/rstudio.r")
 ## Obdelava, uvoz in čiščenje podatkov
 
 ```{r uvoz, echo=FALSE, message=FALSE, warning=FALSE}
-source("uvoz/moj_uvoz.R")
+source("uvoz/moj_uvoz.R", encoding="UTF-8")
 ```
 
 Uvozil sem podatke o prebuvalstvu v Slovenskih statističnih regijah v obliki CSV s statističnega urada republike Slovenije. Podatke imam v šestih razpredelnicah v obliki *tidy data*.
@@ -91,7 +91,7 @@ Viri: [SURS](https://pxweb.stat.si/pxweb/Database/Dem_soc/Dem_soc.asp), [Wikiped
 Spodnji graf prikazuje gibanje prebivalstva republike Slovenije od leta 1922 naprej v tisočih.
 
 ```{r vizualizacija, echo=FALSE, message=FALSE, warning=FALSE, results='hide'}
-source("vizualizacija/vizualizacija_moja.R")
+source("vizualizacija/vizualizacija_moja.R", encoding="UTF-8")
 ```
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 gibanje_prebivalstva_dygraph()
@@ -130,7 +130,7 @@ Poselejnost Slovenije je neenakomerna, najbol poseljeni sta Osrednjeslovenska in
 Gostota se s časom povsod spreminja, večinoma rahlo narašča, le v regijah kjer smo že prej lahko opazili trend odselejevanja, gostota upade.
 
 ```{r analiza, echo=FALSE, message=FALSE}
-source("analiza/analiza.r")
+source("analiza/analiza.r", encoding="UTF-8")
 ```
 
 ```{r shiny, echo=FALSE}
