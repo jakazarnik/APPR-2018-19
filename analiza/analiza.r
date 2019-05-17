@@ -23,7 +23,7 @@ predict(fit, cas)
 napoved <- cas %>% mutate(stevilo=predict(fit, cas))
 
 mladi_graf3 <- ggplot(napoved, aes(x=leto, y=stevilo)) +
-  scale_y_continuous(limits = c(30000, 50000)) +
+  scale_y_continuous(limits = c(200000, 350000)) +
   geom_smooth(method=lm, se=FALSE, fullrange = TRUE) +
   geom_point(data=napoved, color="red", size=2) +
   labs(title="Napoved števila mladih", y="število prebivalcev 0-14let") + 
