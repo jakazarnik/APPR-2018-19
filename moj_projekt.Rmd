@@ -127,8 +127,10 @@ selitve
 ### Gibanje števila mlajše populacije
 
 Kot je bilo že opazno se je rast prebivalstva v Sloveniji opočasnuje oziroma je celo negativna. Posledica tega je tudi staranje prebivalstva in kot je razvidno iz prvega izmed naslednjih dveh grafov število oseb starih med 0 in 14 let upada, torej lahko skleopamo, da se prebivalstvo stara. Vedndar ni v vseh regijah enako. Videli smo že, da je Osrednjeslovesnka regija območje, kamor se ljudje največ priseljujejo. V drugem grafu lahko vidimo, da se število otrok(0 in 14) tam trenutno povečuje in po napovedi, naj bi se tudi v prihodnje. Iz teh podatkov lahko sklepamo, da se mladi odločajo za selitve v Ljubljano in okolico in si tam ustvarijo družine.
-```{r analiza, r, echo=FALSE, message=FALSE, warning=FALSE}
-mladi_graf3
+
+```{r analiza, echo=FALSE, message=FALSE, fig.align='center'}
+source("analiza/analiza.r", encoding="UTF-8")
+print(mladi_graf3)
 ```
 
 ***
