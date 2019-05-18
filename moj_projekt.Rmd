@@ -126,10 +126,11 @@ selitve
 
 ### Gibanje števila mlajše populacije
 
-Kot je bilo že opazno se je rast prebivalstva v Sloveniji opočasnuje oziroma je celo negativna. Posledica tega je tudi staranje prebivalstva in kot je razvidno iz prvega izmed naslednjih dveh grafov število oseb starih med 0 in 14 let upada, torej lahko skleopamo, da se prebivalstvo stara. Vedndar ni v vseh regijah enako. Videli smo že, da je Osrednjeslovesnka regija območje, kamor se ljudje največ priseljujejo. V drugem grafu lahko vidimo, da se število otrok(0 in 14) tam trenutno povečuje in po napovedi, naj bi se tudi v prihodnje. Iz teh podatkov lahko sklepamo, da se mladi odločajo za selitve v Ljubljano in okolico in si tam ustvarijo družine.
+Kot je bilo že opazno, se rast prebivalstva v Sloveniji močno opočasnila, bila celo negativna, trenutno pa se rahlo veča. Posledica tega je tudi staranje prebivalstva in manjše število rojstev. Iz spodnjega grafa, ki prikazuje število oseb starih med 0 in 14 let v osrednjeslovenski regiji, je razvidno, da je število otrok padalo vse do leta 2008. Osrednjeslovenska regija je prikazana zato, ker je po prejšnjih ugotovitvah to območje z največ priseljevanja v Sloveniji. Glavno mesto Ljubljana, področje z največjo gostoto poseljenosti, ima veliko delovnih mest ter univerzo in zato lahko sklepamo, da se veliko mladih najprej zaradi izobraževanja in nato dela seli tja. Neposredno pa to vpliva na rast število oseb 0-14 let, saj si mladi tu ustvarjajo družine. Spodnji graf nam pokaže, da bi se lahko številka v prihodnosti še povečala.
 
 ```{r analiza, echo=FALSE, message=FALSE, fig.align='center'}
 source("analiza/analiza.r", encoding="UTF-8")
+print(mladi_graf3)
 ```
 
 ***
@@ -149,4 +150,4 @@ shinyAppDir("shiny", options=list(width="100%", height=600))
 # Zaključek
 
 
-Iz podatkov lahko jasno razberemo, da se je rest prebivalstva v Sloveniji upočasnila. Razlike med regijami so precejšnje, še posebej v primerjavi z Osrednjeslovesko, kjer je klub upadu rojstev prebivalstvo še vedno občutno naraslo zaradi večje količine priseljenih. Verjetno tudi iz ostalih regij, kot naprimer iz Koroške in Pomurske.
+Iz podatkov lahko jasno razberemo, da se je rest prebivalstva v Sloveniji upočasnila. Razlike med regijami so precejšnje, še posebej v primerjavi z Osrednjeslovesko, kjer je klub upadu rojstev prebivalstvo še vedno občutno naraslo zaradi večje količine priseljenih, ki pa so v veliki meri tudi mladi. Verjetno tudi iz ostalih regij, kot naprimer iz Koroške in Pomurske. V prihodnosti lahko verjetno pričakujemo, da se bo populacija večjih mest še povečala, ruralna območja pa bodo vedno bolj prazna, saj jih naseljuje večinoma starejše prebivalstvo. 
