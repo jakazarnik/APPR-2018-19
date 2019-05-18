@@ -26,5 +26,3 @@ mladi_graf3 <- ggplot(tabela_mladi, aes(x=leto, y=stevilo)) +
   geom_smooth(data=napoved, method = "lm", formula = y ~ poly(x, 6), fullrange = TRUE) +
   labs(title="Napoved števila mlajšega prebivalstva", y="število prebivalcev 0-14let") + 
   geom_point()
-
-plot(mladi_graf3)

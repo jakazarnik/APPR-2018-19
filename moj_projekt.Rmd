@@ -130,7 +130,6 @@ Kot je bilo že opazno se je rast prebivalstva v Sloveniji opočasnuje oziroma j
 
 ```{r analiza, echo=FALSE, message=FALSE, fig.align='center'}
 source("analiza/analiza.r", encoding="UTF-8")
-print(mladi_graf3)
 ```
 
 ***
