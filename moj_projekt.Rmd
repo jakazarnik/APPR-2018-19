@@ -115,9 +115,9 @@ rojstva_smrti
 
 Polgejmo si še število priseljenih po regijah.
 
-Očitno je, da je Osrednjeslovenska regija del, kamor se je priselelilo največ ljudi. Razlogov je veliko, pomembnejši izmed njih pa so veliko delovnih mest, saj je to bolj razvit del države, možnost šolanja, bljižina glavnega mesta ipd.
-Sledi ji Obalno-kraška, katere del je vsa slovenska obala in je v naposrednji bljižini tako Italije kot Hrvaške.
-Najmanj priselejevanja oziroma odselejvanje lahko opazimo na Koroškem in Pomurskem, ki sta najbolj odmaknjena dela Slovenije od njenega središča. Razlogi so predvsem slabša razvitost, kriza je ta dva dela bolj prizadela, in pomanjkanje delovnih mest.
+Očitno je, da je osrednjeslovenska regija del, kamor se je priselelilo največ ljudi. Razlogov je veliko, pomembnejši izmed njih pa so veliko delovnih mest, saj je to bolj razvit del države, možnost šolanja, bljižina glavnega mesta ipd.
+Sledi ji obalno-kraška, katere del je vsa slovenska obala in je v naposrednji bljižini tako Italije kot Hrvaške.
+Najmanj priselejevanja oziroma odselejvanje lahko opazimo na koroškem in pomurskem, ki sta najbolj odmaknjena dela Slovenije od njenega središča. Razlogi so predvsem slabša razvitost, kriza je ta dva dela bolj prizadela, in pomanjkanje delovnih mest. Mlajše prebivalstvo se zato seli v bližino večjih mest, predvsem v osrednjeslovensko regijo.
 ```{r Slovenija, echo=FALSE, fig.align='center', fig.cap='Zemljevid 1: število priseljenih na 1000 prebivalcev'}
 selitve
 ```
@@ -128,7 +128,7 @@ selitve
 
 Kot je bilo že opazno, se rast prebivalstva v Sloveniji močno opočasnila, bila celo negativna, trenutno pa se rahlo veča. Posledica tega je tudi staranje prebivalstva in manjše število rojstev. Iz spodnjega grafa, ki prikazuje število oseb starih med 0 in 14 let v osrednjeslovenski regiji, je razvidno, da je število otrok padalo vse do leta 2008. Osrednjeslovenska regija je prikazana zato, ker je po prejšnjih ugotovitvah to območje z največ priseljevanja v Sloveniji. Glavno mesto Ljubljana, področje z največjo gostoto poseljenosti, ima veliko delovnih mest ter univerzo in zato lahko sklepamo, da se veliko mladih najprej zaradi izobraževanja in nato dela seli tja. Neposredno pa to vpliva na rast število oseb 0-14 let, saj si mladi tu ustvarjajo družine. Spodnji graf nam pokaže, da bi se lahko številka v prihodnosti še povečala.
 
-```{r analiza, echo=FALSE, message=FALSE, fig.align='center'}
+```{r analiza, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center'}
 source("analiza/analiza.r", encoding="UTF-8")
 print(mladi_graf3)
 ```
@@ -138,7 +138,7 @@ print(mladi_graf3)
 ### Gostota poseljenosti
 
 
-Poselejnost Slovenije je neenakomerna, najbol poseljeni sta Osrednjeslovenska in Podravska regija, kjer sta tudi največji mesti Ljubljana in Maribor.
+Poselejnost Slovenije je neenakomerna, najbol poseljeni sta osrednjeslovenska in Podravska regija, kjer sta tudi največji mesti Ljubljana in Maribor.
 Gostota se s časom povsod spreminja, večinoma rahlo narašča, le v regijah kjer smo že prej lahko opazili trend odselejevanja, gostota upade.
 
 
@@ -150,4 +150,4 @@ shinyAppDir("shiny", options=list(width="100%", height=600))
 # Zaključek
 
 
-Iz podatkov lahko jasno razberemo, da se je rest prebivalstva v Sloveniji upočasnila. Razlike med regijami so precejšnje, še posebej v primerjavi z Osrednjeslovesko, kjer je klub upadu rojstev prebivalstvo še vedno občutno naraslo zaradi večje količine priseljenih, ki pa so v veliki meri tudi mladi. Verjetno tudi iz ostalih regij, kot naprimer iz Koroške in Pomurske. V prihodnosti lahko verjetno pričakujemo, da se bo populacija večjih mest še povečala, ruralna območja pa bodo vedno bolj prazna, saj jih naseljuje večinoma starejše prebivalstvo. 
+Iz podatkov lahko jasno razberemo, da se je rest prebivalstva v Sloveniji upočasnila. Razlike med regijami so precejšnje, še posebej v primerjavi z osrednjeslovesko, kjer je klub upadu rojstev prebivalstvo še vedno občutno naraslo zaradi večje količine priseljenih, ki pa so v veliki meri tudi mladi. Verjetno tudi iz ostalih regij, kot naprimer iz koroške in pomurske. V prihodnosti lahko verjetno pričakujemo, da se bo populacija večjih mest še povečala, ruralna območja pa bodo vedno bolj prazna, saj jih naseljuje večinoma starejše prebivalstvo. 
